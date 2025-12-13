@@ -1,16 +1,28 @@
-## Hi there 👋
+# Hi, I'm Rachit Kumar Tiwari 👋
 
-<!--
-**rachts/rachts** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a CSE student and full-stack developer building AI-driven web & mobile products.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Skills
+- **Languages:** JavaScript (TypeScript), Python, C, Java
+- **Frontend:** React, Next.js, Tailwind, HTML, CSS
+- **Backend:** Node.js, Firebase, Supabase
+- **Mobile:** React Native
+- **AI & Tools:** APIs, Automation, AI integrations
+
+---
+
+## 📌 Projects
+- **Vitamend**: AI-based medicine donation platform  
+  Automatic medicine verification & expiry detection, credit-based donation system
+
+- **Vocalis**: Web-based AI assistant  
+  Voice input & TTS, task execution, smart search
+
+---
+
+## 📫 Connect
+- [LinkedIn](https://www.linkedin.com/in/rachitkrtiwari/)
+- [Portfolio]
+- Email: tiwari.rachit@gmail.com
