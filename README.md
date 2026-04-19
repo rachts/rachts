@@ -1,70 +1,61 @@
-Hi, I'm Rachit Kumar Tiwari 👋
 
-CSE student | Full-Stack Developer | AI Product Builder
 
-I build scalable web and mobile applications with a focus on AI-driven systems, automation, and real-world problem solving.
+---
 
-🚀 Tech Stack
+# Hi, I'm Rachit Kumar Tiwari 👋
 
-Languages
-TypeScript, JavaScript, Python, C, Java
-Frontend
-React, Next.js, Tailwind CSS, HTML, CSS
-Backend & Infra
-Node.js, Firebase, Supabase
-Mobile Development
-React Native
-AI & Tooling
-API integrations, AI workflows, automation systems
+**Full-Stack Developer | AI Systems Builder**
 
-📌 Featured Projects
-🧠 Vitamend
+I build AI-powered products focused on **automation, scalability, and real-world impact**.
 
-AI-powered medicine donation platform addressing healthcare accessibility.
+---
 
-Automated medicine verification & expiry detection
-Credit-based donation ecosystem
-Designed for large-scale redistribution networks
-🎙️ Vocalis
+## 🚀 Tech Stack
 
-Web-based AI assistant for productivity and task execution.
+**TypeScript · JavaScript · Python · React · Next.js · Node.js · Firebase · Supabase · React Native**
 
-Voice input (STT) + Text-to-Speech responses
-Smart search (Google + AI hybrid)
-Task automation with extensible architecture
-💰 OptraFi (In Development)
+---
 
-AI-driven personal finance and investment assistant.
+## 📌 Selected Projects
 
-Tracks income, expenses, and spending patterns
-Suggests optimized investment opportunities based on ROI
-Planned integration with investment platforms
-🤖 AI Task Automation Engine
+### 🧠 Vitamend
 
-Custom backend system for executing user-defined workflows.
+AI-powered platform for redistributing unused medicines.
 
-Event-driven architecture for task execution
-API orchestration across multiple services
-Designed for extensibility (reminders, actions, integrations)
-🌐 Modern E-commerce Frontend (Shoes Store)
+* Automated verification & expiry detection
+* Credit-based donation system
+* Built for real-world scalability
 
-High-performance UI-focused e-commerce platform.
+---
 
-Responsive design with clean UX
-Optimized product browsing and filtering
-Built using modern frontend best practices
-📱 Cross-Platform Utility Apps (React Native)
+### 🎙️ Vocalis
 
-Collection of mobile-first utilities and experiments.
+Web-based AI assistant for productivity and interaction.
 
-Shared codebase across Android/iOS
-Focus on performance and usability
-Includes productivity and assistant-based features
-🎯 What I'm Building Toward
-AI-first products with real-world utility
-Scalable SaaS platforms
-Tech + finance integrated solutions
-📫 Connect With Me
-🔗 LinkedIn: https://www.linkedin.com/in/rachitkrtiwari/
-🌐 Portfolio: https://rachitkrtiwari.vercel.app/
-📧 Email: tiwari.rachit@gmail.com
+* Voice interface (STT + TTS)
+* Smart search (AI + web)
+* Modular, extensible architecture
+
+---
+
+### 💰 OptraFi *(In Progress)*
+
+AI-driven personal finance system.
+
+* Tracks spending behavior
+* Suggests ROI-focused investments
+
+---
+
+## 🎯 Focus
+
+AI-first products · Scalable systems · Tech × Finance
+
+---
+
+## 📫 Connect
+
+[LinkedIn](https://www.linkedin.com/in/rachitkrtiwari/) · [Portfolio](https://rachitkrtiwari.vercel.app/) · [tiwari.rachit@gmail.com](mailto:tiwari.rachit@gmail.com)
+
+---
+
