@@ -34,26 +34,26 @@
 
 ## 📌 Featured Projects
 
-### 🧠 [Vitamend](#) *(Insert Repo/Demo Link)*
+### 🧠 [Vitamend](#) *(vitamend-org.vercel.app)*
 > **AI-powered platform for redistributing unused medicines safely and efficiently.**
 
 - **Impact:** Designed for real-world scalability to reduce medical waste and help those in need via a secure credit-based donation system.
 - **Key Features:** Automated medicine verification & AI-driven expiry detection.
-- **Tech Stack:** `Next.js`, `TypeScript`, `Supabase`, `[Insert AI API]`
+- **Tech Stack:** `Next.js`, `TypeScript`, `MongoDB`, `Resend`, `Tesseract OCR`
 
-### 🎙️ [Vocalis](#) *(Insert Repo/Demo Link)*
+### 🎙️ [Vocalis](#) *(vocalis-va.vercel.app)*
 > **Web-based AI assistant designed for seamless productivity and voice interaction.**
 
 - **Architecture:** Highly modular and extensible framework designed to easily plug in new AI capabilities and tools.
 - **Key Features:** Native voice interface utilizing STT (Speech-to-Text) & TTS (Text-to-Speech), powered by a smart, web-aware AI search engine.
-- **Tech Stack:** `Python`, `React`, `[Insert Voice API]`, `[Insert LLM]`
+- **Tech Stack:** `Python`, `React`, `MongoDB`, `OpenAI`
 
-### 💰 [OptraFi](#) *(In Progress)*
+### 💰 [OptraFi](#) *(optra-fi.vercel.app)*
 > **Intelligent, AI-driven personal finance and wealth management system.**
 
 - **Goal:** Empower users with smart planning tools to reach their financial milestones faster.
 - **Key Features:** Deep tracking of spending behaviors and intelligent, ROI-focused investment allocation suggestions.
-- **Tech Stack:** `Next.js`, `Node.js`, `[Insert Database]`, `[Insert Financial API]`
+- **Tech Stack:** `Next.js`, `Node.js`, `MongoDB Cluster`
 
 ---
 
