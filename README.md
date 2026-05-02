@@ -1,69 +1,136 @@
-# Hi there, I'm Rachit Kumar Tiwari 👋
+<p align="center">
+  <a href="https://app.daily.dev/rachts">
+    <img src="https://api.daily.dev/devcards/v2/7EsKQEdjqmburc3XVCZFP.png" width="320" />
+  </a>
+</p>
 
-<div align="center">
-  <h3><b>Full-Stack Developer | AI Systems Builder</b></h3>
-  <p><i>Building AI-powered products focused on automation, scalability, and real-world impact.</i></p>
-  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/rachitkrtiwari/)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-success?style=for-the-badge&logo=vercel)](https://rachitkrtiwari.vercel.app/)
-  [![Email](https://img.shields.io/badge/Email-Contact_Me-red?style=for-the-badge&logo=gmail)](mailto:tiwari.rachit@gmail.com)
-</div>
+<h1 align="center">Rachit Kumar Tiwari</h1>
+
+<p align="center">
+  <b>Full-Stack Developer • AI Systems Builder • Product Engineer</b>
+</p>
+
+<p align="center">
+  Designing AI-first systems that scale from prototype to production.
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/rachitkrtiwari/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
+  </a>
+  <a href="https://rachitkrtiwari.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-success?style=for-the-badge&logo=vercel"/>
+  </a>
+  <a href="mailto:tiwari.rachit@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail"/>
+  </a>
+</p>
 
 ---
 
-## 🚀 About Me
+## 🧠 About Me
 
-- 🎯 **Primary Focus:** Architecting AI-first products, building scalable full-stack systems, and exploring the intersection of **Tech × Finance**.
-- 💡 **What I do:** I bridge the gap between complex AI models and user-friendly, production-ready web and mobile applications.
-- 🌱 **Currently Exploring:** Advanced LLM integrations, state-of-the-art frontend architectures, and autonomous AI agents.
+I build **AI-powered products** that are not just technically sound, but **usable, scalable, and impactful**.
+
+- ⚙️ Focused on **AI-first architecture + full-stack systems**
+- 🧩 Strong at turning **complex ideas into real products**
+- 📈 Exploring **Tech × Finance × Automation**
+- 🤖 Working with **LLMs, voice interfaces, and intelligent systems**
 
 ---
 
-## 💻 Tech Stack
+## ⚡ Currently Building
 
-**Languages:**  
-![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
-**Frontend & Mobile:**  
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![React Native](https://img.shields.io/badge/-React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
-
-**Backend & Cloud:**  
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+- 🧠 **Vitamend** → AI-powered medicine redistribution platform  
+- 🎙️ **Vocalis** → Web-based voice AI assistant  
+- 💰 **OptraFi** → AI-driven personal finance intelligence  
 
 ---
 
 ## 📌 Featured Projects
 
-### 🧠 [Vitamend](#) *(vitamend-org.vercel.app)*
-> **AI-powered platform for redistributing unused medicines safely and efficiently.**
+### 🧠 Vitamend  
+🔗 https://vitamend-org.vercel.app  
 
-- **Impact:** Designed for real-world scalability to reduce medical waste and help those in need via a secure credit-based donation system.
-- **Key Features:** Automated medicine verification & AI-driven expiry detection.
-- **Tech Stack:** `Next.js`, `TypeScript`, `MongoDB`, `Resend`, `Tesseract OCR`
+> AI-powered platform to redistribute unused medicines safely and efficiently.
 
-### 🎙️ [Vocalis](#) *(vocalis-va.vercel.app)*
-> **Web-based AI assistant designed for seamless productivity and voice interaction.**
+- 🧪 AI-based **medicine verification & expiry detection**
+- 💳 Credit-based donation ecosystem
+- 🌍 Built for **real-world deployment at scale**
 
-- **Architecture:** Highly modular and extensible framework designed to easily plug in new AI capabilities and tools.
-- **Key Features:** Native voice interface utilizing STT (Speech-to-Text) & TTS (Text-to-Speech), powered by a smart, web-aware AI search engine.
-- **Tech Stack:** `Python`, `React`, `MongoDB`, `OpenAI`
-
-### 💰 [OptraFi](#) *(optra-fi.vercel.app)*
-> **Intelligent, AI-driven personal finance and wealth management system.**
-
-- **Goal:** Empower users with smart planning tools to reach their financial milestones faster.
-- **Key Features:** Deep tracking of spending behaviors and intelligent, ROI-focused investment allocation suggestions.
-- **Tech Stack:** `Next.js`, `Node.js`, `MongoDB Cluster`
+**Tech:** `Next.js` `TypeScript` `MongoDB` `Tesseract OCR` `Resend`
 
 ---
 
-## 📈 GitHub Analytics
+### 🎙️ Vocalis  
+🔗 https://vocalis-va.vercel.app  
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rachts&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-</div>
+> Intelligent voice assistant built for productivity and automation.
+
+- 🎤 Native **voice interface (STT + TTS)**
+- 🧠 Context-aware AI interaction system
+- 🔌 Modular architecture for extensibility
+
+**Tech:** `Python` `React` `MongoDB` `OpenAI`
 
 ---
-<div align="center">
-  <i>Open to exciting opportunities, collaborations, and conversations about AI and scalable tech!</i>
-</div>
+
+### 💰 OptraFi  
+🔗 https://optra-fi.vercel.app  
+
+> AI-driven finance system for smarter wealth decisions.
+
+- 📊 Behavioral spending analysis
+- 📈 ROI-based investment suggestions
+- 🤖 Fully AI-powered insights engine
+
+**Tech:** `Next.js` `Node.js` `MongoDB`
+
+---
+
+## 💻 Tech Stack
+
+**Languages**  
+`TypeScript` `JavaScript` `Python`  
+
+**Frontend & Mobile**  
+`React` `Next.js` `React Native`  
+
+**Backend & Infra**  
+`Node.js` `Firebase` `Supabase`  
+
+---
+
+## 📊 GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=rachts&show_icons=true&theme=radical&hide_border=true"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=rachts&theme=radical&hide_border=true"/>
+</p>
+
+---
+
+## 🧠 Philosophy
+
+I don’t just build applications.
+
+I design **systems** that:
+- scale  
+- solve real-world problems  
+- and integrate intelligence at their core  
+
+---
+
+## 🤝 Let’s Connect
+
+I’m open to:
+- 🚀 Building impactful products  
+- 🤖 AI collaborations  
+- 💡 Startup ideas  
+
+<p align="center">
+  <i>Let’s build something meaningful.</i>
+</p>
