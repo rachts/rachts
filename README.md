@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="https://app.daily.dev/rachts">
-    <img src="https://api.daily.dev/devcards/v2/7EsKQEdjqmburc3XVCZFP.png" width="320" />
-  </a>
-</p>
-
 <h1 align="center">Rachit Kumar Tiwari</h1>
 
 <p align="center">
@@ -30,12 +24,12 @@
 
 ## 🧠 About Me
 
-I build **AI-powered products** that are not just technically sound, but **usable, scalable, and impactful**.
+I build **AI-powered systems** that are scalable, efficient, and production-ready.
 
-- ⚙️ Focused on **AI-first architecture + full-stack systems**
-- 🧩 Strong at turning **complex ideas into real products**
-- 📈 Exploring **Tech × Finance × Automation**
-- 🤖 Working with **LLMs, voice interfaces, and intelligent systems**
+- ⚙️ AI-first architecture + full-stack systems  
+- 🧩 Turning complex ideas into real-world products  
+- 📈 Exploring Tech × Finance × Automation  
+- 🤖 Working with LLMs, voice interfaces, intelligent systems  
 
 ---
 
@@ -52,37 +46,37 @@ I build **AI-powered products** that are not just technically sound, but **usabl
 ### 🧠 Vitamend  
 🔗 https://vitamend-org.vercel.app  
 
-> AI-powered platform to redistribute unused medicines safely and efficiently.
+AI-powered platform to redistribute unused medicines safely.
 
-- 🧪 AI-based **medicine verification & expiry detection**
-- 💳 Credit-based donation ecosystem
-- 🌍 Built for **real-world deployment at scale**
+- 🧪 AI-based medicine verification & expiry detection  
+- 💳 Credit-based donation ecosystem  
+- 🌍 Built for real-world scale  
 
-**Tech:** `Next.js` `TypeScript` `MongoDB` `Tesseract OCR` `Resend`
+**Tech:** `Next.js` `TypeScript` `MongoDB` `Tesseract OCR`
 
 ---
 
 ### 🎙️ Vocalis  
 🔗 https://vocalis-va.vercel.app  
 
-> Intelligent voice assistant built for productivity and automation.
+Voice-first AI assistant for productivity.
 
-- 🎤 Native **voice interface (STT + TTS)**
-- 🧠 Context-aware AI interaction system
-- 🔌 Modular architecture for extensibility
+- 🎤 Speech-to-text + text-to-speech  
+- 🧠 Context-aware interactions  
+- 🔌 Modular architecture  
 
-**Tech:** `Python` `React` `MongoDB` `OpenAI`
+**Tech:** `React` `Python` `MongoDB` `OpenAI`
 
 ---
 
 ### 💰 OptraFi  
 🔗 https://optra-fi.vercel.app  
 
-> AI-driven finance system for smarter wealth decisions.
+AI-powered financial decision system.
 
-- 📊 Behavioral spending analysis
-- 📈 ROI-based investment suggestions
-- 🤖 Fully AI-powered insights engine
+- 📊 Spending behavior analysis  
+- 📈 ROI-based suggestions  
+- 🤖 Intelligent insights engine  
 
 **Tech:** `Next.js` `Node.js` `MongoDB`
 
@@ -93,8 +87,8 @@ I build **AI-powered products** that are not just technically sound, but **usabl
 **Languages**  
 `TypeScript` `JavaScript` `Python`  
 
-**Frontend & Mobile**  
-`React` `Next.js` `React Native`  
+**Frontend**  
+`React` `Next.js`  
 
 **Backend & Infra**  
 `Node.js` `Firebase` `Supabase`  
@@ -104,29 +98,35 @@ I build **AI-powered products** that are not just technically sound, but **usabl
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rachts&show_icons=true&theme=radical&hide_border=true"/>
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=rachts&show_icons=true&theme=radical&hide_border=true" 
+    alt="GitHub Stats"
+  />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=rachts&theme=radical&hide_border=true"/>
+  <img 
+    src="https://streak-stats.demolab.com?user=rachts&theme=radical&hide_border=true" 
+    alt="GitHub Streak"
+  />
 </p>
 
 ---
 
 ## 🧠 Philosophy
 
-I don’t just build applications.
+I don’t just build apps — I design **systems** that:
 
-I design **systems** that:
 - scale  
 - solve real-world problems  
-- and integrate intelligence at their core  
+- integrate intelligence at their core  
 
 ---
 
 ## 🤝 Let’s Connect
 
 I’m open to:
+
 - 🚀 Building impactful products  
 - 🤖 AI collaborations  
 - 💡 Startup ideas  
