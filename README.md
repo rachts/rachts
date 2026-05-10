@@ -12,7 +12,7 @@
   <a href="https://www.linkedin.com/in/rachitkrtiwari/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
   </a>
-  <a href="https://rachitkrtiwari.vercel.app/">
+  <a href="https://portfolio-rachts.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-Visit-success?style=for-the-badge&logo=vercel"/>
   </a>
   <a href="mailto:tiwari.rachit@gmail.com">
