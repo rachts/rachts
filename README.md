@@ -1,14 +1,14 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=4B0082&height=200&section=header&text=Rachit%20Kumar%20Tiwari&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Enterprise-Grade%20Software%20Engineering%20%7C%20AI%20Systems%20Architecture&descAlignY=60&descSize=16" alt="Header Banner" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=4B0082&height=200&section=header&text=Rachit%20Kumar%20Tiwari&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=CSE%20Undergraduate%20%7C%20Software%20%26%20AI%20Developer&descAlignY=60&descSize=16" alt="Header Banner" width="100%" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=8A2BE2&center=true&vCenter=true&width=650&lines=Full-Stack+Software+Engineer;AI+Systems+%26+LLM+Pipeline+Architect;Production-Grade+Product+Engineer;High-Performance+Distributed+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=8A2BE2&center=true&vCenter=true&width=650&lines=Software+%26+AI+Developer;CSE+Undergraduate;Full-Stack+Web+Development;Building+AI-Powered+Applications" alt="Typing SVG" />
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Education-Computer_Science-4B0082?style=for-the-badge&logo=gitbook&logoColor=white" alt="Academic" />
-  <img src="https://img.shields.io/badge/Location-India-8A2BE2?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
+  <img src="https://img.shields.io/badge/Education-B.Tech_CSE-4B0082?style=for-the-badge&logo=gitbook&logoColor=white" alt="Academic" />
+  <img src="https://img.shields.io/badge/Location-Kolkata,_India-8A2BE2?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
 </div>
 
 <br />
@@ -34,31 +34,31 @@
 
 ## 👨‍💻 About
 
-I am a **Senior Full-Stack Software Engineer** and **AI Systems Architect** focused on designing, building, and deploying highly scalable, production-grade enterprise software. My engineering methodology centers on robust systems architecture, clean domain-driven design, and seamlessly embedding asynchronous machine learning workflows into distributed high-performance applications.
+I am a **Computer Science Engineering student** and **Software & AI Developer** focused on designing and developing AI-powered, full-stack web applications. I am passionate about software engineering, problem-solving, and leveraging modern technologies to build innovative, user-centric solutions.
 
-*   **Software Engineering:** Architecting fault-tolerant, low-latency distributed web applications utilizing modern TypeScript, Node.js, and Python ecosystems with strict enforcement of design patterns and system reliability.
-*   **AI/ML Expertise:** Building domain-specific intelligent systems powered by Large Language Models (LLMs), RAG architectures, low-latency Speech-to-Text/Text-to-Speech (STT/TTS) streaming pipelines, and automated Optical Character Recognition (OCR).
-*   **Full Stack Development:** Executing end-to-end product lifecycles—from database normalization and indexing strategies (PostgreSQL, MongoDB) to performant, responsive frontend interface architectures (React, Next.js).
-*   **Product Engineering Mindset:** Transforming ambiguous business requirements into resilient production systems, prioritizing operational excellence, code modularity, testability, and high-ROI feature execution.
-*   **Open To:** Senior Software Engineer positions, AI Engineering & Systems Architecture roles, open-source technical leadership, and strategic engineering collaborations in Tech, FinTech, and AI/Automation.
+*   **Software Engineering:** Proficient in building scalable, real-world web applications utilizing modern TypeScript, React, Next.js, and Node.js ecosystems, with a strong grasp of OOP and Data Structures & Algorithms.
+*   **AI & Computer Vision:** Experienced in developing AI-driven platforms, integrating OpenAI APIs, Retrieval-Augmented Generation (RAG) pipelines, Optical Character Recognition (OCR), and OpenCV.
+*   **Full Stack Development:** Executing end-to-end product lifecycles—from responsive frontend interfaces (Tailwind CSS, shadcn/ui) to robust backend APIs and real-time databases (MongoDB, Firebase, Supabase).
+*   **Engineering Mindset:** Actively participating in hackathons, building social-impact platforms, and focusing on creating reliable, scalable architectures.
+*   **Open To:** Software Engineering Internships, Junior/Entry-Level Developer roles, open-source collaborations, and exciting hackathon opportunities.
 
 ---
 
-## ⚙️ Tech Stack & Infrastructure
+## ⚙️ Tech Stack & Tools
 
 <div align="center">
 
 ### Languages
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=ts,js,py,html,css&theme=dark" alt="Languages" /></a>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=java,py,c,ts,js,html,css&theme=dark" alt="Languages" /></a>
 
 ### Frontend Engineering
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind,bootstrap,vite&theme=dark" alt="Frontend" /></a>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css&theme=dark" alt="Frontend" /></a>
 
 ### Backend & Databases
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgresql,firebase,supabase&theme=dark" alt="Backend & Databases" /></a>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase,supabase&theme=dark" alt="Backend & Databases" /></a>
 
-### Cloud, DevOps & Tooling
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,github,docker,aws,vercel,postman&theme=dark" alt="Cloud and Tooling" /></a>
+### AI, Tools & Platforms
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,github,postman,figma,vercel,opencv&theme=dark" alt="Cloud and Tooling" /></a>
 
 </div>
 
@@ -66,103 +66,104 @@ I am a **Senior Full-Stack Software Engineer** and **AI Systems Architect** focu
 
 ## 🧠 AI / ML Engineering Expertise
 
-| Domain | Proficiency | Enterprise Application Details |
+| Domain | Proficiency | Project Implementation Details |
 | :--- | :--- | :--- |
-| **Large Language Models (LLMs)** | Advanced | Engineering structured generation, semantic search, and context-aware conversational systems utilizing OpenAI architectures and enterprise RAG pipelines. |
-| **Voice AI & Speech Processing** | Advanced | Architecting real-time, bidirectional acoustic streaming pipelines leveraging full-duplex WebSocket communication for instantaneous STT/TTS execution. |
-| **Optical Character Recognition** | Intermediate | Developing automated document ingestion engines using Tesseract OCR, featuring noise preprocessing, pattern extraction, and high-throughput label validation. |
-| **AI Systems Architecture** | Advanced | Designing decoupled, horizontal AI microservices with token-budget optimization, retry exponential backoffs, and deterministic fallback mechanics. |
+| **Generative AI & LLMs** | Advanced | Engineering voice-first agentic operating systems and RAG pipelines integrating Google Gemini and AI APIs. |
+| **Computer Vision & OpenCV** | Intermediate | Building desktop privacy systems using real-time facial recognition and Python-Electron WebSockets communication. |
+| **Optical Character Recognition** | Intermediate | Developing AI-driven medicine validation pipelines using OCR for expiry date extraction and medicine identification. |
+| **Real-Time Systems** | Intermediate | Architecting low-latency platforms with WebSockets and real-time cloud database synchronization. |
 
 ---
 
 ## 📁 Featured Projects
 
 <details>
-<summary><b>🧠 Vitamend — AI-Powered Medical Redistribution Platform</b></summary>
+<summary><b>🎙️ Vocalis OS — An Agentic AI Operating System</b></summary>
 <br />
 
-An enterprise-scale regulatory medical inventory verification and redistribution system designed to intercept pharmaceutical waste using asynchronous optical character recognition and transactional ledger mechanics.
+A voice-first AI operating system engineered with speech recognition, text-to-speech, and autonomous task execution capabilities.
 
 | Metric | Details |
 | :--- | :--- |
-| **Stack** | Next.js 14, TypeScript, Node.js, MongoDB Atlas, Tesseract OCR, Tailwind CSS |
-| **Scale** | Engineered for high-throughput, event-driven medical label extraction and batch inventory processing |
-| **Performance** | Sub-second optical validation pipelines utilizing background worker queues and optimistic UI rendering |
-| **Security** | End-to-end payload encryption, strict JWT session boundary enforcement, and audit-immutable transaction logs |
-| **Impact** | Systematically eliminates usable pharmaceutical waste via automated safety verification and smart supply-routing algorithms |
-| **Repository** | [Explore Source Code & Live Deployment](https://vitamend-org.vercel.app) |
-
-*Professional Implementation:* Architected a fault-tolerant verification pipeline that transforms raw optical capturing streams into structured pharmaceutical metadata using Tesseract OCR. Implemented complex cross-referencing logic against an indexed MongoDB cluster to mathematically validate drug efficacy, expiry horizons, and distribution authenticity prior to ledger commitment.
+| **Stack** | Next.js, TypeScript, React, Firebase, AI APIs |
+| **Features** | Integrated AI-powered workflows, real-time web search, reminders, and to-do management |
+| **Architecture** | Designed a scalable, modular architecture supporting extensible AI agents and responsive user experiences |
+| **Repository** | [Explore Source Code / Live Site](https://github.com/rachts) *(Update link as needed)* |
 
 </details>
 
 <details>
-<summary><b>🎙️ Vocalis — Voice-First AI Productivity & Automation Assistant</b></summary>
+<summary><b>📰 Kred.ai — AI-Powered Real-Time News Verification</b></summary>
 <br />
 
-A low-latency, conversational voice intelligence web workstation engineered for hands-free workflow automation, multi-modal context understanding, and seamless conversational interface execution.
+An AI-powered fact-checking platform that verifies news using live web evidence from trusted sources.
 
 | Metric | Details |
 | :--- | :--- |
-| **Stack** | React 18, Python (FastAPI), Node.js, MongoDB, OpenAI Whisper & GPT-4 API |
-| **Scale** | Multi-threaded asynchronous event loop architecture designed for concurrent real-time audio socket sessions |
-| **Performance** | Optimized streaming chunk processing delivering under <300ms time-to-first-byte (TTFB) acoustic responses |
-| **Security** | Ephemeral context sandboxing, secure API gateway rate-limiting, and zero-retention audio buffer protocols |
-| **Impact** | Reduces interface friction by 65% through voice-driven executive task orchestration and cognitive summary automation |
-| **Repository** | [Explore Source Code & Live Deployment](https://vocalis-va.vercel.app) |
-
-*Professional Implementation:* Designed a hybrid microservice network divorcing client-side audio frame capture from backend computational inferencing. Formulated custom acoustic streaming buffers that ingest live PCM audio over WebSockets, dynamically translating intent into executable API directives via structured prompt frameworks.
+| **Stack** | Next.js 16, TypeScript, Google Gemini API, Serper API, Tailwind CSS |
+| **AI Pipeline** | Built a retrieval-augmented generation (RAG) pipeline integrating Serper API with Google Gemini |
+| **Impact** | Implemented multilingual verification with evidence-backed verdicts, confidence scoring, and a modern interface |
+| **Repository** | [Explore Source Code / Live Site](https://github.com/rachts) *(Update link as needed)* |
 
 </details>
 
 <details>
-<summary><b>💰 OptraFi — AI-Driven Personal Finance Intelligence Engine</b></summary>
+<summary><b>💊 Vitamend — AI-Driven Medicine Donation Platform</b></summary>
 <br />
 
-An algorithmic wealth management and telemetry engine that ingests transactional ledger records to calculate deterministic financial ROI forecasts, risk assessments, and intelligent capital allocations.
+A medicine donation platform enabling the secure redistribution of unused medicines through AI-assisted verification.
 
 | Metric | Details |
 | :--- | :--- |
-| **Stack** | Next.js, Node.js, Express.js, MongoDB, Algorithmic Financial Insight Engine |
-| **Scale** | Horizontally distributed database schemas built for high-frequency financial ledgers and historical analytics |
-| **Performance** | Leveraged advanced MongoDB aggregation pipelines (`$lookup`, `$group`, `$facet`) for O(1) query execution |
-| **Security** | Bank-grade data sanitization, strict CORS boundary enforcement, and zero-trust environment configuration |
-| **Impact** | Automates personal and SME liquidity optimization using predictive financial modeling and expenditure diagnostics |
-| **Repository** | [Explore Source Code & Live Deployment](https://optra-fi.vercel.app) |
+| **Stack** | React, TypeScript, MongoDB, OCR, AI Verification |
+| **Data Flow** | Integrated OCR and AI pipelines for automated medicine identification and expiry validation |
+| **Logistics** | Designed modular donation, verification, and QR-based traceability workflows |
+| **Repository** | [Explore Source Code / Live Site](https://github.com/rachts) *(Update link as needed)* |
 
-*Professional Implementation:* Built a high-concurrency Node.js backend running computation-heavy statistical financial aggregations. Constructed modular service layers that transform unstructured banking ledgers into structured, highly readable analytics dashboards with dynamic client-side visual charting.
+</details>
+
+<details>
+<summary><b>🔐 PrivSight — AI Desktop Privacy System</b></summary>
+<br />
+
+A desktop privacy application engineered to protect sensitive on-screen content using real-time facial recognition.
+
+| Metric | Details |
+| :--- | :--- |
+| **Stack** | Electron, React, TypeScript, Python, OpenCV, WebSockets |
+| **Vision Tech** | Built a computer vision pipeline with OpenCV and low-latency Electron–Python communication via WebSockets |
+| **Privacy** | Enabled fully local processing to ensure user privacy without cloud dependency |
+| **Repository** | [Explore Source Code / Live Site](https://github.com/rachts) *(Update link as needed)* |
+
+</details>
+
+<details>
+<summary><b>💰 OptraFi — AI-Powered Personal Finance Platform</b></summary>
+<br />
+
+An AI-powered personal finance platform for tracking income, expenses, and actionable spending insights.
+
+| Metric | Details |
+| :--- | :--- |
+| **Stack** | React, TypeScript, Firebase, AI APIs |
+| **Analytics** | Developed intelligent investment recommendation features using AI-driven financial analysis |
+| **Security** | Implemented secure, real-time dashboards with scalable cloud-based data management |
+| **Repository** | [Explore Source Code / Live Site](https://github.com/rachts) *(Update link as needed)* |
 
 </details>
 
 ---
 
-## 💼 Experience
+## 🎓 Education
 
-**Independent Software Engineer & Product Builder**  
-*Full-Stack Engineering & AI Systems Consulting* | *Jan 2022 – Present*  
+**Bachelor of Technology (B.Tech) in Computer Science & Engineering**  
+*MCKV Institute of Engineering, West Bengal, India*  
 
-Serving as principal systems architect and independent contractor designing end-to-end software infrastructures that bridge sophisticated generative AI inference capabilities with intuitive, highly distributed web platforms.
-*   Architected and delivered multiple production-grade web applications from conception to Vercel/AWS deployment utilizing Next.js, React, Node.js, TypeScript, and MongoDB with 99.9% target SLA uptime.
-*   Engineered domain-specific artificial intelligence integration modules (OpenAI LLMs, Whisper STT, Tesseract OCR), achieving a 40% reduction in token consumption via caching layer optimization and structured prompt optimization.
-*   Established rigorous enterprise engineering practices including comprehensive database schema normalization, automated CI/CD deployment pipelines, strict ESLint/TypeScript compilation boundaries, and clean Git versioning workflows.
-*   Consulted on product architecture and algorithmic scalability for cloud-native platforms, specializing in fault-tolerant asynchronous queue management and stateful multi-user session management.
-
-`System Architecture` `Distributed Systems` `AI Pipeline Engineering` `Full-Stack Development` `Database Normalization` `Cloud Deployment`
-
----
-
-## 🏆 Achievements
-
-<div align="center">
-
-| Recognition | Details |
-| :---: | :--- |
-| **Enterprise AI Systems Deployment** | Successfully engineered and deployed production-grade NLP and OCR microservices capable of parsing unstructured domain data with high fault tolerance and accuracy. |
-| **Full-Cycle Product Ownership** | Conceived, architected, built, and launched three robust, highly scalable software products (*Vitamend*, *Vocalis*, *OptraFi*) without third-party dependency failures. |
-| **Database Query Optimization** | Achieved up to 60% reduction in database query execution latencies across financial and healthcare datasets by designing optimized B-tree compound indexing and native aggregation pipelines. |
-| **High-Performance Architecture** | Maintained near-perfect Core Web Vitals (95+ Lighthouse Performance scores) across deployed frontend infrastructures using server-side rendering (SSR), static generation, and edge routing. |
-
-</div>
+*   **Year 1 (YGPA):** 8.12/10
+*   **Semester 3 (SGPA):** 8.80/10
+*   **Semester 2 (SGPA):** 7.66/10
+*   **Semester 1 (SGPA):** 8.64/10
+*   **Core Coursework:** Object-Oriented Programming (OOP), Data Structures & Algorithms (DSA), API Design, Database Management.
 
 ---
 
@@ -170,18 +171,16 @@ Serving as principal systems architect and independent contractor designing end-
 
 <div align="center">
 
-### Cloud & Infrastructure Engineering
-<img src="https://img.shields.io/badge/AWS-Certified_Solutions_Architect-4B0082?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Solutions Architect" />
-<img src="https://img.shields.io/badge/AWS-Certified_Cloud_Practitioner-8A2BE2?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Cloud Practitioner" />
+### Database & Backend
+<img src="https://img.shields.io/badge/HackerRank-SQL_(Advanced)-4B0082?style=for-the-badge&logo=hackerrank&logoColor=white" alt="SQL Advanced" />
+<img src="https://img.shields.io/badge/HackerRank-Node.js_(Intermediate)-8A2BE2?style=for-the-badge&logo=hackerrank&logoColor=white" alt="Node.js" />
+<img src="https://img.shields.io/badge/HackerRank-REST_API_(Intermediate)-4B0082?style=for-the-badge&logo=hackerrank&logoColor=white" alt="REST API" />
 
-### Database & Enterprise Architecture
-<img src="https://img.shields.io/badge/Oracle-Database_SQL_Certified_Associate-4B0082?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Database SQL Certified" />
-
-### Computer Science & Algorithms
-<img src="https://img.shields.io/badge/NPTEL-Data_Structures_%26_Algorithms_Expert-8A2BE2?style=for-the-badge&logo=codeforces&logoColor=white" alt="NPTEL DSA" />
-
-### Network Architecture & Security
-<img src="https://img.shields.io/badge/Cisco-CCNA_Routing_%26_Switching-4B0082?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco CCNA" />
+### Logic & Languages
+<img src="https://img.shields.io/badge/HackerRank-Problem_Solving_(Intermediate)-8A2BE2?style=for-the-badge&logo=hackerrank&logoColor=white" alt="Problem Solving" />
+<img src="https://img.shields.io/badge/HackerRank-JavaScript_(Intermediate)-4B0082?style=for-the-badge&logo=hackerrank&logoColor=white" alt="JavaScript" />
+<img src="https://img.shields.io/badge/HackerRank-Java_(Basic)-8A2BE2?style=for-the-badge&logo=hackerrank&logoColor=white" alt="Java" />
+<img src="https://img.shields.io/badge/HackerRank-Python_(Basic)-4B0082?style=for-the-badge&logo=hackerrank&logoColor=white" alt="Python" />
 
 </div>
 
@@ -190,10 +189,9 @@ Serving as principal systems architect and independent contractor designing end-
 ## 💻 Coding Profiles
 
 <div align="center">
-  <a href="https://leetcode.com"><img src="https://img.shields.io/badge/LeetCode-Advanced_Problem_Solver-4B0082?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
-  <a href="https://geeksforgeeks.org"><img src="https://img.shields.io/badge/GeeksforGeeks-Data_Structures_Expert-8A2BE2?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" /></a>
-  <a href="https://hackerrank.com"><img src="https://img.shields.io/badge/HackerRank-5_Star_Problem_Solver-4B0082?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" /></a>
-  <a href="https://codechef.com"><img src="https://img.shields.io/badge/CodeChef-Competitive_Programmer-8A2BE2?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" /></a>
+  <a href="https://leetcode.com"><img src="https://img.shields.io/badge/LeetCode-Problem_Solving-4B0082?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
+  <a href="https://geeksforgeeks.org"><img src="https://img.shields.io/badge/GeeksforGeeks-Data_Structures-8A2BE2?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" /></a>
+  <a href="https://hackerrank.com"><img src="https://img.shields.io/badge/HackerRank-Certified_Developer-4B0082?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" /></a>
 </div>
 
 ---
@@ -209,14 +207,6 @@ Serving as principal systems architect and independent contractor designing end-
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rachts&layout=compact&theme=transparent&hide_border=true&title_color=8A2BE2&text_color=ffffff&icon_color=4B0082&bg_color=0D1117" alt="Top Languages" width="60%" />
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rachts&theme=matrix&no-frame=true&no-bg=true&margin-w=15&title-text-color=8A2BE2&text-color=ffffff" alt="GitHub Trophies" />
 </div>
 
 ---
@@ -246,16 +236,16 @@ Serving as principal systems architect and independent contractor designing end-
 ```yaml
 Current_State:
   Learning: 
-    - "Advanced Distributed Systems Architecture & Consensus Protocols"
-    - "Enterprise Retrieval-Augmented Generation (RAG) Vector Pipelines"
-    - "Kubernetes Orchestration & Cloud-Native Infrastructure Scaling"
+    - "Advanced Full-Stack Engineering Patterns"
+    - "Retrieval-Augmented Generation (RAG) Architecture"
+    - "Real-Time Computer Vision & OpenCV pipelines"
   Building: 
-    - "Vitamend: Asynchronous Worker Queue Optimization & Scale"
-    - "Vocalis: Low-Latency Full-Duplex Audio Streaming Infrastructure"
+    - "Vocalis OS: Agentic AI workflows"
+    - "Kred.ai: Real-Time News Verification Pipeline"
   Exploring: 
-    - "WebAssembly (Wasm) Microservices for High-Speed Edge Computing"
-    - "Predictive Financial Time-Series Modeling via Transformer Networks"
+    - "Desktop App Architecture with Electron & Python"
+    - "AI-driven platforms for Social Impact"
   Open_To: 
-    - "Senior Full-Stack & Systems Engineering Roles"
-    - "Enterprise AI Architecture & LLM Engineering Consulting"
-    - "High-Impact Product Collaborations & Technical Co-Founding Roles"
+    - "Software Engineering Internships"
+    - "Junior/Entry-Level Developer Roles"
+    - "Open-Source Collaborations & Hackathons"
