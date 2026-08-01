@@ -1,178 +1,673 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=4B0082&height=200&section=header&text=Rachit%20Kumar%20Tiwari&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=CSE%20Undergraduate%20%7C%20Software%20%26%20AI%20Developer&descAlignY=60&descSize=16" alt="Header Banner" width="100%" />
-</div>
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=8A2BE2&center=true&vCenter=true&width=650&lines=Software+%26+AI+Developer;CSE+Undergraduate;Full-Stack+Web+Development;Building+AI-Powered+Applications" alt="Typing SVG" />
-</div>
-<div align="center">
-  <img src="https://img.shields.io/badge/Education-B.Tech_CSE-4B0082?style=for-the-badge&logo=gitbook&logoColor=white" alt="Academic" />
-  <img src="https://img.shields.io/badge/Location-Kolkata,_India-8A2BE2?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=4B0082&height=220&section=header&text=Rachit%20Kumar%20Tiwari&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20|%20AI%20Developer%20|%20Full%20Stack%20Developer&descAlignY=60&descSize=18" width="100%" />
+
 </div>
 
 <div align="center">
-  <a href="https://portfolio-rachts.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Live_Site-4B0082?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/rachitkrtiwari/"><img src="https://img.shields.io/badge/LinkedIn-Professional_Network-8A2BE2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:tiwari.rachit@gmail.com"><img src="https://img.shields.io/badge/Email-Direct_Contact-4B0082?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/rachts"><img src="https://img.shields.io/badge/GitHub-Code_Repository-8A2BE2?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1200&color=8A2BE2&center=true&vCenter=true&width=700&lines=Building+AI-Powered+Applications;Full-Stack+Software+Engineer;Computer+Vision+%7C+Generative+AI;Always+Learning+Something+New" />
+
 </div>
 
-<div align="center">
-  <img src="https://img.shields.io/github/followers/rachts?style=for-the-badge&color=8A2BE2&labelColor=0D1117&logo=github&logoColor=white&label=FOLLOWERS" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/rachts?style=for-the-badge&color=4B0082&labelColor=0D1117&logo=github&logoColor=white&label=STARS" alt="Stars" />
-</div>
-
-👨‍💻 About Me
-I'm a Computer Science Engineering student and Software & AI Developer focused on building AI-powered, full-stack web applications. I combine software engineering rigor with modern AI tooling to create user-centric, scalable solutions.
-Software Engineering: Scalable web apps using TypeScript, React, Next.js, and Node.js with strong foundations in OOP and DSA.
-AI & Computer Vision: End-to-end AI platforms using OpenAI/Gemini APIs, RAG pipelines, OCR, and OpenCV.
-Full Stack: End-to-end product lifecycle — responsive frontends (Tailwind, shadcn/ui) to robust backends (MongoDB, Firebase, Supabase).
-Engineering Mindset: Active hackathon participant, social-impact builder, and advocate for reliable, scalable architecture.
-Open to: Software Engineering Internships, Junior/Entry-Level Developer roles, open-source collaborations, and hackathons.
-⚙️ Tech Stack
-<div align="center">
-Languages
-<a href="https://skillicons.dev">
-Frontend
-<a href="https://skillicons.dev">
-Backend & Databases
-<a href="https://skillicons.dev">
-AI, Tools & Platforms
-<a href="https://skillicons.dev">
-</div>
-🧠 AI / ML Expertise
-Table
-Domain	Proficiency	Implementation
-Generative AI & LLMs	Advanced	Voice-first agentic OS, RAG pipelines with Google Gemini & OpenAI APIs
-Computer Vision & OpenCV	Intermediate	Real-time facial recognition, Python–Electron WebSocket communication
-OCR & Document AI	Intermediate	Medicine validation pipelines — expiry extraction & identification
-Real-Time Systems	Intermediate	Low-latency WebSocket platforms with real-time cloud sync
-📁 Featured Projects
-<details>
-<summary><b>🎙️ Vocalis OS — Agentic AI Operating System</b></summary>
-A voice-first AI OS with speech recognition, TTS, and autonomous task execution.
-Table
-Stack	Next.js, TypeScript, React, Firebase, AI APIs
-Features	AI workflows, real-time web search, reminders, to-do management
-Architecture	Modular, extensible AI agents with responsive UX
-Links	Source Code · Live Site
-</details>
-<details>
-<summary><b>📰 Kred.ai — AI-Powered News Verification</b></summary>
-Real-time fact-checking platform using live web evidence from trusted sources.
-Table
-Stack	Next.js 16, TypeScript, Google Gemini API, Serper API, Tailwind CSS
-AI Pipeline	RAG pipeline integrating Serper API with Google Gemini
-Impact	Multilingual verification, evidence-backed verdicts, confidence scoring
-Links	Source Code · Live Site
-</details>
-<details>
-<summary><b>💊 Vitamend — AI Medicine Donation Platform</b></summary>
-Secure redistribution of unused medicines via AI-assisted verification.
-Table
-Stack	React, TypeScript, MongoDB, OCR, AI Verification
-Data Flow	OCR + AI pipelines for automated medicine ID and expiry validation
-Logistics	Modular donation, verification, and QR-based traceability workflows
-Links	Source Code · Live Site
-</details>
-<details>
-<summary><b>🔐 PrivSight — Desktop Privacy System</b></summary>
-Real-time facial recognition to protect sensitive on-screen content.
-Table
-Stack	Electron, React, TypeScript, Python, OpenCV, WebSockets
-Vision Tech	OpenCV pipeline with low-latency Electron–Python WebSocket bridge
-Privacy	Fully local processing — zero cloud dependency
-Links	Source Code · Live Site
-</details>
-<details>
-<summary><b>💰 OptraFi — AI Personal Finance Platform</b></summary>
-AI-powered finance tracking with intelligent investment recommendations.
-Table
-Stack	React, TypeScript, Firebase, AI APIs
-Analytics	AI-driven financial analysis & investment recommendations
-Security	Secure real-time dashboards with scalable cloud data management
-Links	Source Code · Live Site
-</details>
-🎓 Education
-B.Tech in Computer Science & Engineering
-MCKV Institute of Engineering, West Bengal, India
-Table
-Semester	SGPA
-Year 1 (YGPA)	8.12 / 10
-Semester 3	8.80 / 10
-Semester 2	7.66 / 10
-Semester 1	8.64 / 10
-Core Coursework: OOP, Data Structures & Algorithms, API Design, Database Management Systems
-📜 Certifications
-<div align="center">
-Database & Backend
-<img src="https://img.shields.io/badge/HackerRank-SQL_(Advanced)-4B0082?style=for-the-badge&logo=hackerrank&logoColor=white" alt="SQL Advanced" />
-<img src="https://img.shields.io/badge/HackerRank-Node.js_(Intermediate)-8A2BE2?style=for-the-badge&logo=hackerrank&logoColor=white" alt="Node.js" />
-<img src="https://img.shields.io/badge/HackerRank-REST_API_(Intermediate)-4B0082?style=for-the-badge&logo=hackerrank&logoColor=white" alt="REST API" />
-Logic & Languages
-<img src="https://img.shields.io/badge/HackerRank-Problem_Solving_(Intermediate)-8A2BE2?style=for-the-badge&logo=hackerrank&logoColor=white" alt="Problem Solving" />
-<img src="https://img.shields.io/badge/HackerRank-JavaScript_(Intermediate)-4B0082?style=for-the-badge&logo=hackerrank&logoColor=white" alt="JavaScript" />
-<img src="https://img.shields.io/badge/HackerRank-Java_(Basic)-8A2BE2?style=for-the-badge&logo=hackerrank&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/HackerRank-Python_(Basic)-4B0082?style=for-the-badge&logo=hackerrank&logoColor=white" alt="Python" />
-</div>
-💻 Coding Profiles
-<div align="center">
-  <a href="https://leetcode.com/u/rachts/"><img src="https://img.shields.io/badge/LeetCode-Problem_Solving-4B0082?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
-  <a href="https://www.geeksforgeeks.org/user/rachts/"><img src="https://img.shields.io/badge/GeeksforGeeks-Data_Structures-8A2BE2?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" /></a>
-  <a href="https://www.hackerrank.com/profile/rachts"><img src="https://img.shields.io/badge/HackerRank-Certified_Developer-4B0082?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" /></a>
-</div>
-📈 GitHub Analytics
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rachts&show_icons=true&theme=transparent&hide_border=true&title_color=8A2BE2&text_color=ffffff&icon_color=4B0082&bg_color=0D1117" alt="GitHub Stats" width="48%" />
-  <img src="https://streak-stats.demolab.com?user=rachts&theme=transparent&hide_border=true&title_color=8A2BE2&text_color=ffffff&icon_color=4B0082&bg_color=0D1117" alt="GitHub Streak" width="48%" />
-</div>
+---
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rachts&layout=compact&theme=transparent&hide_border=true&title_color=8A2BE2&text_color=ffffff&icon_color=4B0082&bg_color=0D1117" alt="Top Languages" width="60%" />
+
+### Software Engineer • AI Developer • Full Stack Developer
+
+Passionate about building intelligent software that combines Artificial Intelligence,
+Computer Vision, and modern Full-Stack technologies to solve real-world problems.
+
+📍 Kolkata, India
+
 </div>
-📉 Contribution Activity
+
+<br>
+
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rachts&bg_color=0D1117&color=8A2BE2&line=4B0082&point=FFFFFF&hide_border=true" alt="Contribution Graph" width="100%" />
+
+<a href="https://portfolio-rachts.vercel.app/">
+<img src="https://img.shields.io/badge/🌐_Portfolio-Visit-4B0082?style=for-the-badge"/>
+</a>
+
+<a href="YOUR_RESUME_LINK">
+<img src="https://img.shields.io/badge/📄_Resume-Download-8A2BE2?style=for-the-badge"/>
+</a>
+
+<a href="https://www.linkedin.com/in/rachitkrtiwari/">
+<img src="https://img.shields.io/badge/LinkedIn-Professional_Network-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:tiwari.rachit@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://github.com/rachts">
+<img src="https://img.shields.io/badge/GitHub-rachts-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
 </div>
-🐍 Contribution Snake
+
+<br>
+
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rachts/rachts/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rachts/rachts/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/rachts/rachts/output/github-contribution-grid-snake.svg" width="100%">
-  </picture>
+
+<img src="https://img.shields.io/github/followers/rachts?style=for-the-badge&label=Followers&color=8A2BE2"/>
+<img src="https://img.shields.io/github/stars/rachts?style=for-the-badge&label=Stars&color=4B0082"/>
+
 </div>
-🎯 Currently
-yaml
+
+---
+
+# 🚀 Highlights
+
+- 🤖 Building AI-powered products using **LLMs, Computer Vision, OCR, and Agentic AI**
+- 💻 Passionate about **Software Engineering, System Design, and Full-Stack Development**
+- 🏆 Active Hackathon Participant focused on solving real-world problems
+- 🌍 Interested in AI solutions for Healthcare, Productivity, and Social Impact
+- 🚀 Currently looking for **Software Engineering** and **AI Internship** opportunities
+
+---
+
+# 👨‍💻 About Me
+
+I'm a Computer Science undergraduate who enjoys designing scalable software and building AI-powered applications that create real-world impact.
+
+My primary interests include:
+
+- Artificial Intelligence & Large Language Models (LLMs)
+- Computer Vision & OCR Systems
+- Full-Stack Web Development
+- Backend Architecture & API Design
+- Agentic AI Systems
+- Modern UI/UX Engineering
+
+I enjoy taking products from **idea → architecture → development → deployment**, ensuring they are scalable, maintainable, and user-friendly.
+
+---
+
+# ⚡ Tech Stack
+
+<div align="center">
+
+### 💻 Programming Languages
+
+<a href="https://skillicons.dev">
+<img src="https://skillicons.dev/icons?i=java,python,c,typescript,javascript,html,css&theme=dark"/>
+</a>
+
+<br><br>
+
+### 🎨 Frontend
+
+<a href="https://skillicons.dev">
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,redux&theme=dark"/>
+</a>
+
+<br><br>
+
+### ⚙ Backend
+
+<a href="https://skillicons.dev">
+<img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark"/>
+</a>
+
+<br><br>
+
+### 🗄 Databases
+
+<a href="https://skillicons.dev">
+<img src="https://skillicons.dev/icons?i=mongodb,firebase,supabase&theme=dark"/>
+</a>
+
+<br><br>
+
+### 🤖 AI / ML
+
+<a href="https://skillicons.dev">
+<img src="https://skillicons.dev/icons?i=opencv,tensorflow&theme=dark"/>
+</a>
+
+<p>
+
+Google Gemini • OpenAI • OCR • RAG • FastAPI • Pytesseract
+
+</p>
+
+<br>
+
+### ☁ Tools & Platforms
+
+<a href="https://skillicons.dev">
+<img src="https://skillicons.dev/icons?i=git,github,vercel,postman,figma,vscode,linux&theme=dark"/>
+</a>
+
+</div>
+
+---
+
+# 🧠 Core Expertise
+
+| Domain | Experience |
+|----------|------------|
+| 🤖 Generative AI | Google Gemini, OpenAI APIs, Prompt Engineering, Agentic Workflows |
+| 👁 Computer Vision | OpenCV, OCR, QR Detection, Image Processing |
+| 🌐 Full Stack Development | Next.js, React, Node.js, Express |
+| 🛠 Backend Systems | REST APIs, Authentication, Real-Time Applications |
+| 📦 Databases | MongoDB, Firebase, Supabase |
+| 🚀 Deployment | Vercel, Railway, GitHub |
+
+---
+
+# 📁 Featured Projects
+
+---
+
+<details open>
+
+<summary>
+
+# 🎙️ Vocalis OS — Agentic AI Operating System
+
+</summary>
+
+### 🚀 Overview
+
+Vocalis is a next-generation **voice-first AI operating system** that enables users to interact with their computer using natural language. Unlike traditional voice assistants, Vocalis leverages **Large Language Models (LLMs)**, tool-calling, memory, and real-time reasoning to automate complex workflows.
+
+### ✨ Key Features
+
+- 🎤 Real-time speech recognition
+- 🧠 LLM-powered intent understanding
+- 🔊 Natural text-to-speech responses
+- 🌐 Live web search integration
+- 📅 Calendar & reminder management
+- ✅ To-do list automation
+- 💬 Persistent conversational memory
+- ⚡ Real-time streaming responses
+- 🔌 Modular plugin architecture
+
+### 🏗️ Architecture
+
+```
+Voice Input
+      │
+      ▼
+Speech Recognition
+      │
+      ▼
+Intent Analysis (LLM)
+      │
+      ▼
+Agent Router
+      │
+ ┌────┼──────────┐
+ ▼    ▼          ▼
+Search Calendar Todo
+ │      │         │
+ └──────┴─────────┘
+        │
+        ▼
+Voice Response
+```
+
+### 🛠 Tech Stack
+
+`Next.js` • `React` • `TypeScript` • `Express.js` • `Gemini API` • `WebSockets` • `Deepgram` • `ElevenLabs`
+
+### 💡 Why It Matters
+
+Instead of relying on predefined commands, Vocalis understands natural language and autonomously decides which tools or workflows to execute, creating a truly intelligent desktop assistant.
+
+### 🔗 Links
+
+- 🌐 **Live Demo:** *(Coming Soon)*
+- 💻 **Repository:** https://github.com/rachts/Vocalis
+
+</details>
+
+---
+
+<details>
+
+<summary>
+
+# 💊 Vitamend — AI-Powered Medicine Donation Platform
+
+</summary>
+
+### 🚀 Overview
+
+Vitamend is an AI-assisted healthcare platform designed to reduce medicine wastage by connecting donors, NGOs, and beneficiaries through an intelligent medicine verification pipeline.
+
+### ✨ Key Features
+
+- 📷 OCR-based medicine scanning
+- 🤖 AI-powered medicine verification
+- 📅 Automatic expiry detection
+- 📦 Batch & QR code validation
+- 🛡 Counterfeit medicine detection
+- 📍 Nearby donation centers
+- ❤️ NGO & volunteer management
+- 📊 Donation analytics dashboard
+
+### 🏗 Workflow
+
+```
+Medicine Upload
+        │
+        ▼
+OCR Extraction
+        │
+        ▼
+AI Verification
+        │
+        ▼
+Expiry Validation
+        │
+        ▼
+QR Verification
+        │
+        ▼
+Safe Donation
+```
+
+### 🛠 Tech Stack
+
+`Next.js` • `React` • `TypeScript` • `MongoDB` • `FastAPI` • `OpenCV` • `Pytesseract` • `Gemini API`
+
+### 💡 Innovation
+
+Unlike conventional donation platforms, Vitamend automatically verifies medicines using AI and Computer Vision before allowing donations, reducing manual effort and improving recipient safety.
+
+### 🔗 Links
+
+- 🌐 **Live Demo:** https://vitamend.vercel.app
+- 💻 **Repository:** https://github.com/rachts/vitamend
+
+</details>
+
+---
+
+<details>
+
+<summary>
+
+# 📰 Kred.ai — AI News Verification Platform
+
+</summary>
+
+### 🚀 Overview
+
+Kred.ai combats misinformation by combining Retrieval-Augmented Generation (RAG), live web search, and LLM reasoning to generate trustworthy, evidence-backed news verification.
+
+### ✨ Key Features
+
+- 🌐 Live web evidence collection
+- 🤖 AI-generated verification reports
+- 📈 Confidence scoring
+- 🌍 Multilingual fact checking
+- 📚 Citation-based responses
+- ⚡ Real-time analysis
+
+### Pipeline
+
+```
+News Article
+
+     │
+
+     ▼
+
+Live Web Search
+
+     │
+
+     ▼
+
+Evidence Collection
+
+     │
+
+     ▼
+
+Gemini Analysis
+
+     │
+
+     ▼
+
+Confidence Score
+
+     │
+
+     ▼
+
+Final Verdict
+```
+
+### 🛠 Tech Stack
+
+`Next.js` • `TypeScript` • `Gemini API` • `Serper API` • `Tailwind CSS`
+
+### 💡 Impact
+
+Provides transparent and explainable AI-generated fact verification by combining live web evidence with LLM reasoning.
+
+### 🔗 Links
+
+- 🌐 **Live Demo:** *(Coming Soon)*
+- 💻 **Repository:** https://github.com/rachts/kred-ai
+
+</details>
+
+---
+
+<details>
+
+<summary>
+
+# 🔐 PrivSight — AI Privacy Protection System
+
+</summary>
+
+### 🚀 Overview
+
+PrivSight is a desktop privacy application that uses Computer Vision to detect unauthorized viewers and automatically protect sensitive on-screen information.
+
+### Features
+
+- 👁 Face Detection
+- 🎯 Stranger Recognition
+- 🔒 Automatic Screen Blur
+- ⚡ Real-time Processing
+- 💻 Cross-platform Desktop App
+
+### Tech Stack
+
+`Electron` • `React` • `Python` • `OpenCV` • `WebSockets`
+
+### Links
+
+- 💻 Repository: https://github.com/rachts/privsight
+
+</details>
+
+---
+
+<details>
+
+<summary>
+
+# 💰 OptraFi — AI Personal Finance Platform
+
+</summary>
+
+### 🚀 Overview
+
+An intelligent finance management platform that combines AI-driven insights, budgeting, investment tracking, and financial analytics into one dashboard.
+
+### Features
+
+- 📊 Expense Analytics
+- 💳 Budget Tracking
+- 📈 Investment Recommendations
+- 🤖 AI Financial Assistant
+- 🔐 Secure Cloud Sync
+
+### Tech Stack
+
+`React` • `Firebase` • `Gemini API` • `TypeScript`
+
+### Links
+
+- 💻 Repository: https://github.com/rachts/optrafi
+
+</details>
+
+---
+
+## 🚀 More Projects
+
+| Project | Description |
+|---------|-------------|
+| **DocEasy** | AI-powered PDF compression & document management platform |
+| **WelcomeToMyCity** | Smart travel planner with interactive maps and itinerary generation |
+| **Restaurant Reservation Chatbot** | Conversational restaurant booking assistant |
+| **Placement Prediction System** | Machine Learning model for student placement prediction |
+| **Gesture Controller** | Hand gesture-based virtual mouse using OpenCV |
+| **Kolkata Metro Route Planner** | Intelligent route optimization application |
+
+---
+
+
+# 🏆 Achievements
+
+<div align="center">
+
+| Achievement | Status |
+|-------------|--------|
+| 🚀 Active Hackathon Participant | ✔️ |
+| 🤖 Built Multiple AI & Full-Stack Applications | ✔️ |
+| 💻 Passionate Software Engineer | ✔️ |
+| 🌍 Open Source Enthusiast | ✔️ |
+| 📚 Continuous Learner | ✔️ |
+
+</div>
+
+> **Currently seeking Software Engineering, Full-Stack Development, and AI/ML Internship opportunities.**
+
+---
+
+# 🎓 Education
+
+### **Bachelor of Technology (B.Tech.)**
+
+**Computer Science & Engineering**
+
+**MCKV Institute of Engineering**
+
+📍 West Bengal, India
+
+| Academic Detail | Information |
+|-----------------|-------------|
+| Degree | B.Tech. in Computer Science & Engineering |
+| Current CGPA | **8.80 / 10** |
+| Expected Graduation | 2028 |
+
+### Relevant Coursework
+
+- Data Structures & Algorithms
+- Object-Oriented Programming
+- Operating Systems
+- Computer Networks
+- Database Management Systems
+- Software Engineering
+- Web Technologies
+- Artificial Intelligence
+
+---
+
+# 📜 Certifications
+
+<div align="center">
+
+<a href="https://www.hackerrank.com/certificates" target="_blank">
+<img src="https://img.shields.io/badge/HackerRank-SQL_Advanced-4B0082?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+</a>
+
+<a href="https://www.hackerrank.com/certificates" target="_blank">
+<img src="https://img.shields.io/badge/HackerRank-REST_API-8A2BE2?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+</a>
+
+<a href="https://www.hackerrank.com/certificates" target="_blank">
+<img src="https://img.shields.io/badge/HackerRank-Node.js-4B0082?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+</a>
+
+<a href="https://www.hackerrank.com/certificates" target="_blank">
+<img src="https://img.shields.io/badge/HackerRank-JavaScript-8A2BE2?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+</a>
+
+<a href="https://www.hackerrank.com/certificates" target="_blank">
+<img src="https://img.shields.io/badge/HackerRank-Python-4B0082?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+</a>
+
+<a href="https://www.hackerrank.com/certificates" target="_blank">
+<img src="https://img.shields.io/badge/HackerRank-Java-8A2BE2?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+</a>
+
+</div>
+
+> **Replace the links above with your actual HackerRank certificate URLs.**
+
+---
+
+# 💻 Coding Profiles
+
+<div align="center">
+
+<a href="https://leetcode.com/u/rachts/">
+<img src="https://img.shields.io/badge/LeetCode-Problem_Solving-orange?style=for-the-badge&logo=leetcode&logoColor=white"/>
+</a>
+
+<a href="https://www.geeksforgeeks.org/user/rachts/">
+<img src="https://img.shields.io/badge/GeeksforGeeks-DSA-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
+</a>
+
+<a href="https://www.hackerrank.com/profile/rachts">
+<img src="https://img.shields.io/badge/HackerRank-Certified_Developer-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+# 📈 GitHub Analytics
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=rachts&show_icons=true&theme=transparent&hide_border=true&title_color=8A2BE2&text_color=ffffff&icon_color=8A2BE2"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rachts&layout=compact&theme=transparent&hide_border=true&title_color=8A2BE2&text_color=ffffff"/>
+
+</div>
+
+---
+
+<div align="center">
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=rachts&bg_color=0D1117&color=8A2BE2&line=4B0082&point=FFFFFF&hide_border=true"/>
+
+</div>
+
+---
+
+# 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+
+<source media="(prefers-color-scheme: dark)"
+srcset="https://raw.githubusercontent.com/rachts/rachts/output/github-contribution-grid-snake-dark.svg">
+
+<source media="(prefers-color-scheme: light)"
+srcset="https://raw.githubusercontent.com/rachts/rachts/output/github-contribution-grid-snake.svg">
+
+<img src="https://raw.githubusercontent.com/rachts/rachts/output/github-contribution-grid-snake.svg"/>
+
+</picture>
+
+</div>
+
+---
+
+# 🌱 Currently
+
+```yaml
 Learning:
-  - Advanced Full-Stack Engineering Patterns
-  - Retrieval-Augmented Generation (RAG) Architecture
-  - Real-Time Computer Vision & OpenCV Pipelines
+  - Agentic AI Systems
+  - Retrieval-Augmented Generation (RAG)
+  - Advanced System Design
+  - Scalable Backend Architectures
 
 Building:
-  - Vocalis OS: Agentic AI workflows
-  - Kred.ai: Real-Time News Verification Pipeline
+  - 🎙️ Vocalis OS
+  - 💊 Vitamend
+  - 📰 Kred.ai
 
 Exploring:
-  - Desktop App Architecture with Electron & Python
-  - AI-driven Platforms for Social Impact
+  - Local LLMs
+  - Multi-Agent AI
+  - Computer Vision
+  - AI Automation
 
 Open To:
   - Software Engineering Internships
-  - Junior/Entry-Level Developer Roles
-  - Open-Source Collaborations & Hackathons
+  - AI/ML Internships
+  - Full Stack Developer Roles
+  - Open Source Collaboration
+```
+
+---
+
+---
+
+# 📫 Let's Connect
+
 <div align="center">
-🤝 Let's Connect
-<a href="https://www.linkedin.com/in/rachitkrtiwari/">
-<a href="mailto:tiwari.rachit@gmail.com">
+
+<p>
+
+I'm always interested in collaborating on innovative projects, discussing AI, Full-Stack Development, Open Source, or exploring internship opportunities.
+
+If you'd like to work together or simply have a conversation, feel free to reach out!
+
+</p>
+
+<br>
+
 <a href="https://portfolio-rachts.vercel.app/">
+<img src="https://img.shields.io/badge/🌐_Portfolio-Visit_Website-4B0082?style=for-the-badge"/>
+</a>
+
+<a href="YOUR_RESUME_LINK">
+<img src="https://img.shields.io/badge/📄_Resume-Download-8A2BE2?style=for-the-badge"/>
+</a>
+
+<a href="https://www.linkedin.com/in/rachitkrtiwari/">
+<img src="https://img.shields.io/badge/LinkedIn-Rachit_Tiwari-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:tiwari.rachit@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://github.com/rachts">
+<img src="https://img.shields.io/badge/GitHub-rachts-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
 </div>
-Key Changes Made:
-Table
-Area	Improvement
-About Me	Tightened from 5 bullet points to 4; stronger action verbs; merged "Engineering Mindset" into concise closing
-Projects	Cleaner table layout (`	:---	:---	`); replaced placeholder text with actual link structure; added "Links" row
-Education	Converted to a clean table; easier to scan for recruiters
-Coding Profiles	Placeholder links fixed — update these with your actual usernames (leetcode.com/u/rachts/, etc.)
-Profile Views	Removed — the counter is unreliable and can detract from professionalism
-YAML Block	Removed quotes for cleaner syntax; consistent indentation
-CTA	Added a "Let's Connect" footer — critical for recruiter outreach
+
+---
+
+<div align="center">
+
+## 💜 Thanks for Visiting!
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=8A2BE2&center=true&vCenter=true&width=700&lines=Thanks+for+visiting+my+GitHub!;Let's+build+something+amazing+together.;Always+learning.+Always+building." />
+
+<br><br>
+
+⭐ **If you found my projects interesting, consider starring a repository or connecting with me on LinkedIn.**
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=4B0082&height=120&section=footer"/>
+
+</div>
