@@ -193,44 +193,28 @@ Vocalis is an AI-powered voice assistant designed to move beyond predefined comm
         ┌─────────────────┐
         │ Voice Response  │
         └─────────────────┘
-```
-
-### 🛠️ Tech Stack
-
-`Next.js` • `React` • `TypeScript` • `Express.js` • `Gemini API` • `WebSockets` • `Deepgram` • `ElevenLabs`
-
-### 💡 Engineering Focus
-
-Vocalis explores how an LLM can act as an **agentic orchestration layer**, deciding which tools to invoke based on natural-language requests rather than relying entirely on hard-coded command patterns.
-
-### 🔗 Repository
-
-**GitHub:** https://github.com/rachts/Vocalis
-
----
-
-## 💊 Vitamend — AI-Powered Medicine Donation Platform
-
+🛠️ Tech Stack
+Next.js • React • TypeScript • Express.js • Gemini API • WebSockets • Deepgram • ElevenLabs
+💡 Engineering Focus
+Vocalis explores how an LLM can act as an agentic orchestration layer, deciding which tools to invoke based on natural-language requests rather than relying entirely on hard-coded command patterns.
+🔗 Repository
+GitHub: https://github.com/rachts/Vocalis
+💊 Vitamend — AI-Powered Medicine Donation Platform
 <p>
   <strong>AI-assisted platform for medicine verification and donation workflows</strong>
 </p>
-
-Vitamend is designed to reduce medicine wastage by connecting medicine donors, NGOs, volunteers, and beneficiaries through an **AI-assisted verification pipeline**.
-
-### ✨ Key Features
-
-* 📷 OCR-based medicine scanning
-* 🤖 AI-assisted medicine verification
-* 📅 Automated expiry-date extraction
-* 📦 Batch and QR-code validation
-* 🔍 Image-based medicine analysis
-* 📍 Donation-center discovery
-* ❤️ NGO and volunteer management
-* 📊 Donation analytics
-
-### 🏗️ Workflow
-
-```text
+Vitamend is designed to reduce medicine wastage by connecting medicine donors, NGOs, volunteers, and beneficiaries through an AI-assisted verification pipeline.
+✨ Key Features
+📷 OCR-based medicine scanning
+🤖 AI-assisted medicine verification
+📅 Automated expiry-date extraction
+📦 Batch and QR-code validation
+🔍 Image-based medicine analysis
+📍 Donation-center discovery
+❤️ NGO and volunteer management
+📊 Donation analytics
+🏗️ Workflow
+Text
 Medicine Upload
        │
        ▼
@@ -247,44 +231,28 @@ Medicine Upload
        │
        ▼
 Donation Workflow
-```
-
-### 🛠️ Tech Stack
-
-`Next.js` • `React` • `TypeScript` • `MongoDB` • `FastAPI` • `OpenCV` • `Pytesseract` • `Gemini API`
-
-### 💡 Engineering Focus
-
-The project combines **Computer Vision, OCR, AI reasoning, and full-stack application architecture** to automate parts of the medicine verification workflow.
-
-### 🔗 Links
-
-* **Live Demo:** https://vitamend.vercel.app
-* **Repository:** https://github.com/rachts/vitamend
-
----
-
-## 📰 Kred.ai — AI News Verification Platform
-
+🛠️ Tech Stack
+Next.js • React • TypeScript • MongoDB • FastAPI • OpenCV • Pytesseract • Gemini API
+💡 Engineering Focus
+The project combines Computer Vision, OCR, AI reasoning, and full-stack application architecture to automate parts of the medicine verification workflow.
+🔗 Links
+Live Demo: https://vitamend.vercel.app
+Repository: https://github.com/rachts/vitamend
+📰 Kred.ai — AI News Verification Platform
 <p>
   <strong>Evidence-backed AI system for analyzing potentially misleading information</strong>
 </p>
-
-Kred.ai combines **live web search, evidence retrieval, and LLM reasoning** to analyze claims and produce structured, citation-oriented verification results.
-
-### ✨ Key Features
-
-* 🌐 Live web evidence collection
-* 🔎 Retrieval-based claim analysis
-* 🤖 LLM-generated verification reports
-* 📊 Confidence scoring
-* 🌍 Multilingual analysis
-* 📚 Evidence and citation support
-* ⚡ Real-time verification workflow
-
-### 🏗️ Pipeline
-
-```text
+Kred.ai combines live web search, evidence retrieval, and LLM reasoning to analyze claims and produce structured, citation-oriented verification results.
+✨ Key Features
+🌐 Live web evidence collection
+🔎 Retrieval-based claim analysis
+🤖 LLM-generated verification reports
+📊 Confidence scoring
+🌍 Multilingual analysis
+📚 Evidence and citation support
+⚡ Real-time verification workflow
+🏗️ Pipeline
+Text
 News / Claim
      │
      ▼
@@ -304,127 +272,77 @@ Confidence Assessment
      │
      ▼
 Verification Report
-```
-
-### 🛠️ Tech Stack
-
-`Next.js` • `TypeScript` • `Gemini API` • `Serper API` • `Tailwind CSS`
-
-### 💡 Engineering Focus
-
-Kred.ai demonstrates how **retrieval systems can ground LLM responses in external evidence**, rather than relying solely on the model's internal knowledge.
-
-### 🔗 Repository
-
-**GitHub:** https://github.com/rachts/kred-ai
-
----
-
-## 🔐 PrivSight — AI Privacy Protection System
-
+🛠️ Tech Stack
+Next.js • TypeScript • Gemini API • Serper API • Tailwind CSS
+💡 Engineering Focus
+Kred.ai demonstrates how retrieval systems can ground LLM responses in external evidence, rather than relying solely on the model's internal knowledge.
+🔗 Repository
+GitHub: https://github.com/rachts/kred-ai
+🔐 PrivSight — AI Privacy Protection System
 <p>
   <strong>Computer Vision-based desktop privacy protection</strong>
 </p>
-
 PrivSight is a desktop application that uses Computer Vision to detect people viewing a user's screen and can automatically protect sensitive content.
-
-### ✨ Features
-
-* 👁️ Face detection
-* 🎯 Person / stranger recognition
-* 🔒 Automatic screen privacy protection
-* ⚡ Real-time Computer Vision processing
-* 💻 Desktop application architecture
-
-### 🛠️ Tech Stack
-
-`Electron` • `React` • `Python` • `OpenCV` • `WebSockets`
-
-### 🔗 Repository
-
-**GitHub:** https://github.com/rachts/privsight
-
----
-
-## 💰 OptraFi — AI Personal Finance Platform
-
+✨ Features
+👁️ Face detection
+🎯 Person / stranger recognition
+🔒 Automatic screen privacy protection
+⚡ Real-time Computer Vision processing
+💻 Desktop application architecture
+🛠️ Tech Stack
+Electron • React • Python • OpenCV • WebSockets
+🔗 Repository
+GitHub: https://github.com/rachts/privsight
+💰 OptraFi — AI Personal Finance Platform
 <p>
   <strong>Personal finance dashboard with AI-assisted financial insights</strong>
 </p>
-
 OptraFi is a personal finance platform focused on expense tracking, budgeting, investment monitoring, and AI-assisted financial analysis.
-
-### ✨ Features
-
-* 📊 Expense analytics
-* 💳 Budget tracking
-* 📈 Investment tracking
-* 🤖 AI financial assistant
-* 🔐 Cloud-based data synchronization
-
-### 🛠️ Tech Stack
-
-`React` • `Firebase` • `Gemini API` • `TypeScript`
-
-### 🔗 Repository
-
-**GitHub:** https://github.com/rachts/optrafi
-
----
-
-# 🚀 More Projects
-
-| Project                            | Description                                                                |
-| ---------------------------------- | -------------------------------------------------------------------------- |
-| **DocEasy**                        | PDF compression and document management platform                           |
-| **WelcomeToMyCity**                | Smart travel planner with interactive maps and itinerary generation        |
-| **Restaurant Reservation Chatbot** | Conversational assistant for restaurant booking workflows                  |
-| **Placement Prediction System**    | ML-based student placement prediction using multiple classification models |
-| **Gesture Controller**             | Hand-gesture-based virtual mouse using Computer Vision                     |
-| **Kolkata Metro Route Planner**    | Route optimization application for Kolkata Metro                           |
-
----
-
-# 🏆 Achievements & Activities
-
-* 🏆 Active participant in technical hackathons and innovation challenges
-* 🤖 Built multiple AI, Computer Vision, and Full-Stack applications
-* 🚀 Developed and deployed production-oriented web applications
-* 🔬 Exploring Agentic AI and AI-powered automation
-* 💻 Active software engineering and open-source learner
-
-> **Currently open to Software Engineering, Full-Stack Development, and AI/ML internship opportunities.**
-
----
-
-# 🎓 Education
-
-### Bachelor of Technology — Computer Science & Engineering
-
-**MCKV Institute of Engineering**
+✨ Features
+📊 Expense analytics
+💳 Budget tracking
+📈 Investment tracking
+🤖 AI financial assistant
+🔐 Cloud-based data synchronization
+🛠️ Tech Stack
+React • Firebase • Gemini API • TypeScript
+🔗 Repository
+GitHub: https://github.com/rachts/optrafi
+🚀 More Projects
+Table
+Project	Description
+DocEasy	PDF compression and document management platform
+WelcomeToMyCity	Smart travel planner with interactive maps and itinerary generation
+Restaurant Reservation Chatbot	Conversational assistant for restaurant booking workflows
+Placement Prediction System	ML-based student placement prediction using multiple classification models
+Gesture Controller	Hand-gesture-based virtual mouse using Computer Vision
+Kolkata Metro Route Planner	Route optimization application for Kolkata Metro
+🏆 Achievements & Activities
+🏆 Active participant in technical hackathons and innovation challenges
+🤖 Built multiple AI, Computer Vision, and Full-Stack applications
+🚀 Developed and deployed production-oriented web applications
+🔬 Exploring Agentic AI and AI-powered automation
+💻 Active software engineering and open-source learner
+Currently open to Software Engineering, Full-Stack Development, and AI/ML internship opportunities.
+🎓 Education
+Bachelor of Technology — Computer Science & Engineering
+MCKV Institute of Engineering
 West Bengal, India
-
-| Academic Detail     | Information                               |
-| ------------------- | ----------------------------------------- |
-| Degree              | B.Tech. in Computer Science & Engineering |
-| Current SGPA        | **8.80 / 10**                             |
-| Expected Graduation | **2028**                                  |
-
-### Relevant Coursework
-
-* Data Structures & Algorithms
-* Object-Oriented Programming
-* Operating Systems
-* Computer Networks
-* Database Management Systems
-* Software Engineering
-* Web Technologies
-* Artificial Intelligence
-
----
-
-# 📜 Certifications
-
+Table
+Academic Detail	Information
+Degree	B.Tech. in Computer Science & Engineering
+Current SGPA	8.80 / 10
+Expected Graduation	2028
+Relevant Coursework
+Data Structures & Algorithms
+Object-Oriented Programming
+Operating Systems
+Computer Networks
+Database Management Systems
+Software Engineering
+Web Technologies
+Artificial Intelligence
+📜 Certifications
 <p align="center">
   <a href="https://www.hackerrank.com/certificates/iframe/b34dfbd20f36">
     <img src="https://img.shields.io/badge/HackerRank-SQL_Advanced-4B0082?style=for-the-badge&logo=hackerrank&logoColor=white" alt="SQL Advanced Certificate"/>
@@ -445,11 +363,7 @@ West Bengal, India
     <img src="https://img.shields.io/badge/HackerRank-Java-8A2BE2?style=for-the-badge&logo=hackerrank&logoColor=white" alt="Java Certificate"/>
   </a>
 </p>
-
----
-
-# 💻 Coding Profiles
-
+💻 Coding Profiles
 <p align="center">
   <a href="https://leetcode.com/u/rachts/">
     <img src="https://img.shields.io/badge/LeetCode-Problem_Solving-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/>
@@ -461,24 +375,15 @@ West Bengal, India
     <img src="https://img.shields.io/badge/HackerRank-Certified_Developer-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank"/>
   </a>
 </p>
-
----
-
-# 📈 GitHub Analytics
-
+📈 GitHub Analytics
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=rachts&show_icons=true&theme=transparent&hide_border=true&title_color=8A2BE2&text_color=ffffff&icon_color=8A2BE2" alt="GitHub statistics"/>
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rachts&layout=compact&theme=transparent&hide_border=true&title_color=8A2BE2&text_color=ffffff" alt="Most used languages"/>
 </p>
-
 <p align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=rachts&bg_color=0D1117&color=8A2BE2&line=4B0082&point=FFFFFF&hide_border=true" alt="GitHub contribution activity"/>
 </p>
-
----
-
-# 🐍 Contribution Snake
-
+🐍 Contribution Snake
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rachts/rachts/output/github-contribution-grid-snake-dark.svg">
@@ -486,12 +391,8 @@ West Bengal, India
     <img src="https://raw.githubusercontent.com/rachts/rachts/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake"/>
   </picture>
 </p>
-
----
-
-# 🌱 Currently
-
-```yaml
+🌱 Currently
+yaml
 Learning:
   - Agentic AI Systems
   - Retrieval-Augmented Generation (RAG)
@@ -514,17 +415,11 @@ Open To:
   - AI/ML Internships
   - Full-Stack Developer Roles
   - Open Source Collaboration
-```
-
----
-
-# 📫 Let's Connect
-
+📫 Let's Connect
 <p align="center">
   I'm interested in collaborating on AI, Full-Stack Development, Open Source,
   and software engineering projects.
 </p>
-
 <p align="center">
   <a href="https://portfolio-rachts.vercel.app/">
     <img src="https://img.shields.io/badge/🌐_Portfolio-Visit_Website-4B0082?style=for-the-badge" alt="Portfolio"/>
@@ -543,16 +438,13 @@ Open To:
   </a>
 </p>
 
-<br>
-
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=8A2BE2&center=true&vCenter=true&width=700&lines=Thanks+for+visiting+my+GitHub!;Let's+build+something+amazing+together.;Always+learning.+Always+building." alt="Closing typing animation"/>
 </p>
-
 <p align="center">
   ⭐ If you find my projects interesting, consider starring a repository or connecting with me on LinkedIn.
 </p>
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4B0082&height=120&section=footer" width="100%" alt="Footer"/>
 </p>
+```
