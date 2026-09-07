@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <strong>Computer Science Undergraduate · MCKV Institute of Engineering · Kolkata, India</strong>
+  <strong>Computer Science Undergraduate · MAKAUT · Kolkata, India</strong>
 </p>
 
 <p align="center">
