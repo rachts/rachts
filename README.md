@@ -30,79 +30,90 @@
   <img src="https://img.shields.io/badge/Open_to_SWE_%2F_AI_%2F_Full--Stack_Internships-2026-00C853?style=for-the-badge" alt="Open to SWE, AI and full-stack internships in 2026" />
 </p>
 
-## About
+## 👨‍💻 About Me
 
-I build AI-powered full-stack applications that solve real problems. My work spans generative AI (LLMs, RAG, agents), computer vision (OCR, OpenCV), and modern web stacks (Next.js, TypeScript, FastAPI).
+I build **AI-native, production-grade applications** that solve complex, real-world problems. My work spans **Generative AI** (LLMs, RAG, Agentic workflows), **Computer Vision** (OCR, OpenCV), and **high-performance web stacks** (Next.js, FastAPI, TypeScript). 
 
-What I care about in a codebase: explicit over clever, working over perfect, and edge cases caught before they ship.
+**My Engineering Philosophy:**
+*   **Explicit over clever:** Readable, maintainable code wins every time.
+*   **Working over perfect:** Ship, measure, iterate.
+*   **Edge cases matter:** They are caught in development, not production.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 **Languages**
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,java,c,html,css&theme=dark&perline=7" alt="Python, TypeScript, JavaScript, Java, C, HTML, CSS" />
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,java,c,html,css&theme=dark&perline=7" alt="Languages" />
 </p>
 
 **Frameworks & AI**
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,nodejs,express,fastapi,tensorflow,opencv&theme=dark&perline=8" alt="Next.js, React, Tailwind, Node.js, Express, FastAPI, TensorFlow, OpenCV" />
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,nodejs,express,fastapi,tensorflow,opencv&theme=dark&perline=8" alt="Frameworks" />
 </p>
 
-**Data & Tooling**
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mongodb,firebase,supabase,git,github,vercel,linux,vscode&theme=dark&perline=8" alt="MongoDB, Firebase, Supabase, Git, GitHub, Vercel, Linux, VS Code" />
+**Data & Infrastructure**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,supabase,git,github,vercel,docker,linux&theme=dark&perline=8" alt="Infrastructure" />
 </p>
 
-Also working with: Gemini API, OpenAI API, retrieval-augmented generation, Pytesseract, WebSockets, and prompt engineering.
+*Currently exploring/expanding:* Gemini API, OpenAI API, RAG architectures, Pytesseract, WebSockets, WebAssembly, and advanced prompt engineering.
 
-## Featured Projects
+## 🚀 Featured Projects
 
-### Vocalis OS — Agentic AI Voice Assistant
+### 💊 MedCheck — AI-Powered Clinical Drug Interaction & Safety Platform
+`React` `FastAPI` `Python` `Mistral AI` `Docker`
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rachts/MEDCHECK) [![Live Demo](https://img.shields.io/badge/Live_Demo-4B0082?style=flat-square&logo=vercel&logoColor=white)](https://medcheck-official.vercel.app)
 
-Voice-first assistant with real-time speech recognition, LLM reasoning, tool calling, and persistent memory.
+*   Architected a FastAPI backend powering a **17-rule pharmacology engine** with Mistral AI fallback, delivering multi-tier severity classification and GI risk scoring across **100+ drug interactions**.
+*   Secured APIs with JWT/bcrypt and containerized the stack via multi-stage Docker Compose, cutting environment setup time to **under 2 minutes**.
 
-`Next.js` `TypeScript` `Express.js` `Gemini API` `WebSockets` `Deepgram` `ElevenLabs`
+<br/>
 
-- Agentic orchestration layer where the LLM selects tools (web search, calendar, tasks) from natural language rather than fixed intents
-- Streaming audio pipeline with conversational memory across turns and a modular plugin interface for new tools
+### 📄 DocEasy — Document Management & PDF Processing Platform
+`Next.js 16` `TypeScript` `Supabase` `WebAssembly`
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rachts/DocEasy) [![Live Demo](https://img.shields.io/badge/Live_Demo-4B0082?style=flat-square&logo=vercel&logoColor=white)](https://doceasy-official.vercel.app)
 
-<!-- TODO(rachit): paste the Vocalis OS repo + demo URLs into the two placeholders below. -->
-[Repository](REPLACE_WITH_VOCALIS_REPO_URL) · [Live Demo](REPLACE_WITH_VOCALIS_DEMO_URL)
+*   Engineered a hybrid Next.js architecture using **WebAssembly and the Web Streams API**, achieving **O(1) memory complexity** for client-side processing of massive **250MB PDF payloads**.
+*   Implemented Supabase OAuth and PostgreSQL Row-Level Security with end-to-end TypeScript, reducing reported development errors by **30%**.
 
-### Vitamend — AI Medicine Donation Platform
+<br/>
 
-OCR and AI pipeline that automates medicine verification for donors and NGOs, cutting manual review out of the donation flow.
+### ♻️ Vitamend — AI-Driven Medicine Donation & Redistribution Platform
+`Next.js 14` `TypeScript` `MongoDB` `Gemini Vision`
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rachts/vitamend-org) [![Live Demo](https://img.shields.io/badge/Live_Demo-4B0082?style=flat-square&logo=vercel&logoColor=white)](https://vitamend-ngo.vercel.app)
 
-`Next.js` `TypeScript` `MongoDB` `FastAPI` `OpenCV` `Pytesseract` `Gemini API`
+*   Built a **Gemini Vision OCR pipeline** to extract medicine details from label images and automatically flag potentially expired products before approval.
+*   **🏆 Awards:** 1st Place MCKVIE Innovation Symposium | National Finalist Cosmohack (Top 10) | HACKVSIT (Top 20).
 
-- Verification pipeline chains OCR extraction, LLM validation, expiry checks, and QR confirmation into a single pass
-- Built both sides: computer vision service in Python and the React frontend against a MongoDB schema
+<br/>
 
-<!-- TODO(rachit): your original had these as unlinked text. Paste the real URLs. -->
-[Live Demo](REPLACE_WITH_VITAMEND_DEMO_URL) · [Repository](REPLACE_WITH_VITAMEND_REPO_URL)
+### 📈 VITALS.IO — SaaS Unit Economics & Financial Health Analyzer
+`Python` `FastAPI` `Jinja2` `Tailwind CSS` `Chart.js`
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rachts/VITALS.IO) [![Live Demo](https://img.shields.io/badge/Live_Demo-4B0082?style=flat-square&logo=vercel&logoColor=white)](https://vitals-io.onrender.com)
 
-### Kred.ai — AI News Verification
+*   Built a FastAPI-based financial analytics platform that ingests raw CSV data and computes **LTV, CAC, ARPA, churn, gross margin, payback period**, and a 0-10 unit-economics health score.
+*   Engineered **fuzzy CSV header matching** and interactive **what-if scenario simulation**, with REST APIs for programmatic financial analysis and startup runway forecasting.
 
-Claim analysis grounded in live web evidence instead of model recall.
+## 🎓 Education
 
-`Next.js` `TypeScript` `Gemini API` `Serper API` `Tailwind CSS`
-
-- Retrieval-augmented generation over live search results, so every verdict cites retrieved sources rather than asserting from parameters
-- Multilingual input with confidence scoring and structured citation output
-
-[Repository](REPLACE_WITH_KRED_REPO_URL)
-
-## Education
-
-**B.Tech, Computer Science & Engineering** — MAKAUT, West Bengal<br>
+**B.Tech, Computer Science & Engineering** — MAKAUT, West Bengal  
 Expected graduation 2028 · CGPA 8.80/10
 
-## Contact
+## 📊 GitHub Stats
 
-Best reached at [tiwari.rachit@gmail.com](mailto:tiwari.rachit@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/rachitkrtiwari/). Work samples live on the [portfolio](https://portfolio-rachts.vercel.app/).
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=rachts&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" alt="Rachit's GitHub Stats" width="45%"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rachts&theme=tokyonight&hide_border=true" alt="Rachit's GitHub Streak" width="45%"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rachts&theme=tokyonight&hide_border=true&layout=compact" alt="Top Languages" width="45%"/>
+</p>
+
+## 📫 Contact
+
+Best reached at [tiwari.rachit@gmail.com](mailto:tiwari.rachit@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/rachitkrtiwari/).  
+Work samples live on my [Portfolio](https://portfolio-rachts.vercel.app/).
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4B0082&height=100&section=footer" alt="" width="100%" />
