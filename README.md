@@ -98,6 +98,15 @@ Also working with: Mistral AI, Gemini API, OpenAI API, retrieval-augmented gener
 **B.Tech, Computer Science & Engineering** — MAKAUT, West Bengal
 Expected graduation 2028 · CGPA 8.80/10
 
+## GitHub Activity
+
+<p>
+  <a href="https://github-stats-extended.vercel.app/api?username=rachts&rank_icon=percentile&custom_title=Github%20Stats&show_icons=true&include_all_commits=true&theme=swift">
+    <img src="https://github-stats-extended.vercel.app/api?username=rachts&rank_icon=percentile&custom_title=Github%20Stats&show_icons=true&include_all_commits=true&theme=swift" alt="GitHub Stats" height="165" />
+  </a>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=rachts&layout=compact&theme=swift" alt="Top languages" height="165" />
+</p>
+
 ## Contact
 
 Best reached at [tiwari.rachit@gmail.com](mailto:tiwari.rachit@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/rachitkrtiwari/). Work samples live on the [portfolio](https://portfolio-rachts.vercel.app/).
