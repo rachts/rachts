@@ -6,7 +6,7 @@ Building AI-powered, full-stack products — from pharmacology safety engines to
 
 <p>
   <a href="https://portfolio-rachts.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-111111?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://drive.google.com/file/d/1VZ8CnQdSzF9B3DEpfSfJLlMGEvfP-CiC/view?usp=sharing"><img src="https://img.shields.io/badge/Resume-111111?style=flat-square&logo=googledrive&logoColor=white" alt="Resume" /></a>
+  <a href="https://drive.google.com/file/d/1OpZUdvMgNVKpOlmhFF6YQxRhqobWhIm7/view?usp=sharing"><img src="https://img.shields.io/badge/Resume-111111?style=flat-square&logo=googledrive&logoColor=white" alt="Resume" /></a>
   <a href="https://www.linkedin.com/in/rachitkrtiwari/"><img src="https://img.shields.io/badge/LinkedIn-111111?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:tiwari.rachit@gmail.com"><img src="https://img.shields.io/badge/Email-111111?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/rachts"><img src="https://img.shields.io/badge/Open_to_SWE_%2F_AI_Internships_2026-111111?style=flat-square" alt="Open to SWE / AI internships in 2026" /></a>
@@ -97,13 +97,6 @@ Also working with: Mistral AI, Gemini API, OpenAI API, retrieval-augmented gener
 
 **B.Tech, Computer Science & Engineering** — MAKAUT, West Bengal
 Expected graduation 2028 · CGPA 8.80/10
-
-## GitHub Activity
-
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=rachts&show_icons=true&theme=default&hide_border=true&count_private=true&title_color=111111" alt="GitHub stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rachts&layout=compact&theme=default&hide_border=true&title_color=111111" alt="Top languages" height="150" />
-</p>
 
 ## Contact
 
