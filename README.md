@@ -39,7 +39,7 @@ Also: Gemini and OpenAI APIs
 
 ## Selected work
 
-### 🚀 Featured Projects
+### Featured Projects
 
 #### [Vitamend](https://github.com/rachts/vitamend-org) — *AI-Powered Medicine Redistribution*
 > Bridging surplus medicine with underserved community health clinics across India.
