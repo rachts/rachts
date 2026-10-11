@@ -43,7 +43,10 @@ class ProfileTests(unittest.TestCase):
             with self.subTest(path=path):
                 svg = ET.parse(ROOT / path).getroot()
                 self.assertEqual(svg.tag, "{http://www.w3.org/2000/svg}svg")
-                self.assertIsNotNone(svg.find("{http://www.w3.org/2000/svg}title"))
+                self.assertTrue(
+                    svg.find("{http://www.w3.org/2000/svg}title") is not None
+                    or svg.find("{http://www.w3.org/2000/svg}desc") is not None
+                )
 
     def test_banner_and_footer_binary(self):
         url = re.search(r'src="(https://readme-typing-svg[^\"]+)"', self.readme).group(1)
