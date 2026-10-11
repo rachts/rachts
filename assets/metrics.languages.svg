@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180" role="img" aria-labelledby="title desc">
 <title id="title">~/ repository languages</title><desc id="desc">Awaiting first refresh — run metrics.yml in Actions. No activity data has been fetched.</desc>
 <rect width="900" height="180" rx="12" fill="#0d1117"/>
-<path d="M24 40h24" stroke="#A89B8C" stroke-width="4"/>
+<path d="M24 40h24" stroke="#8A2BE2" stroke-width="4"/>
 <g fill="#e6edf3" font-family="ui-monospace,monospace"><text x="24" y="80" font-size="20">~/ repository languages</text>
 <text x="24" y="120" font-size="15">Awaiting first refresh — run metrics.yml in Actions.</text></g></svg>
