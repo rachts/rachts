@@ -31,7 +31,7 @@ class ProfileTests(unittest.TestCase):
         self.assertLess(len(self.readme.splitlines()), 120)
         self.assertEqual(re.findall(r"^## (.+)$", self.readme, re.M),
                          ["About", "Toolbox", "Skill radar", "Contribution calendar", "Stats", "Selected work"])
-        self.assertEqual(len(re.findall(r"^\| (?:Vocalis OS|Vitamend|Kred\.ai|PrivSight) \|", self.readme, re.M)), 4)
+        self.assertEqual(len(re.findall(r"^\| \[(?:Vitamend|MEDCHECK|DocEasy|VITALS\.IO)\]\(https://github\.com/rachts/[^)]+\) \|", self.readme, re.M)), 4)
         self.assertEqual(self.readme.count("skillicons.dev/icons"), 1)
         self.assertNotIn("github-readme-stats", self.readme)
 

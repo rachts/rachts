@@ -41,10 +41,10 @@ Also: Gemini and OpenAI APIs
 
 | project | live | stack | one-line description |
 | :--- | :--- | :--- | :--- |
-| Vocalis OS | — | `Next.js` `TypeScript` `Express` `Gemini` `WebSockets` | An agentic voice assistant. |
-| Vitamend | [visit](https://vitamend.vercel.app) | `Next.js` `FastAPI` `OpenCV` `Pytesseract` `MongoDB` | An AI medicine donation platform. |
-| Kred.ai | — | `Next.js` `Gemini` `Serper API` | Evidence-backed news verification. |
-| PrivSight | — | `Electron` `React` `Python` `OpenCV` | Computer-vision-based screen privacy. |
+| [Vitamend](https://github.com/rachts/vitamend-org) | [visit](https://vitamend.vercel.app) | — | — |
+| [MEDCHECK](https://github.com/rachts/MEDCHECK) | — | — | — |
+| [DocEasy](https://github.com/rachts/DocEasy) | — | — | — |
+| [VITALS.IO](https://github.com/rachts/VITALS.IO) | — | — | — |
 
 ---
 
