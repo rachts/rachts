@@ -1,0 +1,23 @@
+{
+  "max_rating": 5,
+  "skills": {
+    "title": "Skills",
+    "categories": [
+      {"name": "Generative AI", "rating": null},
+      {"name": "Agentic systems", "rating": null},
+      {"name": "RAG", "rating": null},
+      {"name": "Vision / OCR", "rating": null},
+      {"name": "Full-stack web", "rating": null}
+    ]
+  },
+  "languages": {
+    "title": "Languages",
+    "categories": [
+      {"name": "JavaScript", "rating": null},
+      {"name": "TypeScript", "rating": null},
+      {"name": "Python", "rating": null},
+      {"name": "Java", "rating": null},
+      {"name": "C", "rating": null}
+    ]
+  }
+}

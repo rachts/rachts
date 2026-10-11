@@ -1,0 +1,82 @@
+name: Update contribution snakes
+
+on:
+  schedule:
+    - cron: '19 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  snake:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      - name: Generate light and dark snakes
+        uses: Platane/snk@v3
+        with:
+          github_user_name: rachts
+          github_token: ${{ github.token }}
+          outputs: |
+             assets/snake.svg?color_snake=%238A2BE2&color_dots=%23ebedf0,%23e6d5f7,%23c39ce9,%23a261de,%238A2BE2
+             assets/snake-dark.svg?color_snake=%238A2BE2&color_dots=%23161b22,%2332134f,%23501781,%236d20b3,%238A2BE2
+      - name: Publish local README assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Never let the dedicated output branch replace the source branch.
+          test "$DEFAULT_BRANCH" != output
+          files=(assets/snake.svg assets/snake-dark.svg)
+          for file in "${files[@]}"; do test -s "$file"; done
+          git fetch origin "refs/heads/$DEFAULT_BRANCH"
+          publish="$RUNNER_TEMP/snake-default-publish"
+          git worktree add --detach "$publish" FETCH_HEAD
+          for file in "${files[@]}"; do install -D -m 644 "$file" "$publish/$file"; done
+          git -C "$publish" config user.name 'github-actions[bot]'
+          git -C "$publish" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C "$publish" add -- "${files[@]}"
+          if git -C "$publish" diff --cached --quiet; then exit 0; fi
+          git -C "$publish" commit -m 'chore: refresh contribution snakes'
+          for attempt in 1 2 3; do
+            if git -C "$publish" push origin "HEAD:refs/heads/$DEFAULT_BRANCH"; then exit 0; fi
+            git -C "$publish" fetch origin "refs/heads/$DEFAULT_BRANCH"
+            git -C "$publish" rebase FETCH_HEAD
+          done
+          exit 1
+      - name: Publish standalone snakes to output branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          publish="$RUNNER_TEMP/snake-output-publish"
+          # Existing output history is retained. On first run, create an orphan
+          # in a separate worktree so source files can never enter output.
+          remote_ref=$(git ls-remote --heads origin refs/heads/output)
+          if [[ -n "$remote_ref" ]]; then
+            git fetch origin refs/heads/output
+            git worktree add --detach "$publish" FETCH_HEAD
+          else
+            git worktree add --detach "$publish" HEAD
+            git -C "$publish" checkout --orphan snake-output-initial
+            git -C "$publish" rm -rf -- .
+          fi
+          install -m 644 assets/snake.svg "$publish/snake.svg"
+          install -m 644 assets/snake-dark.svg "$publish/snake-dark.svg"
+          git -C "$publish" config user.name 'github-actions[bot]'
+          git -C "$publish" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C "$publish" add -- snake.svg snake-dark.svg
+          if git -C "$publish" diff --cached --quiet; then exit 0; fi
+          git -C "$publish" commit -m 'chore: refresh standalone snakes'
+          # Never force-push: a concurrent external edit must not be overwritten.
+          git -C "$publish" push origin HEAD:refs/heads/output

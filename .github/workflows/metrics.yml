@@ -1,0 +1,122 @@
+name: Update profile metrics
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  metrics:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      - name: Check metrics credential
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: test -n "$METRICS_TOKEN"
+      # Upstream has NO v3 major tag. v3.34 is the verified published v3 release.
+      # METRICS_TOKEN is a classic PAT with read:user and repo scopes.
+      # output_action:none writes /metrics_renders/{filename}; only our final
+      # step publishes, using the repository-scoped GITHUB_TOKEN, not the PAT.
+      # Options: https://github.com/lowlighter/metrics/tree/v3.34/source/plugins
+      - name: Isometric contribution calendar
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: rachts
+          template: classic
+          base: ''
+          filename: assets/metrics.isocalendar.svg
+          output_action: none
+          plugin_isocalendar: 'yes'
+          plugin_isocalendar_duration: full-year
+          plugins_errors_fatal: 'yes'
+          config_timezone: Asia/Kolkata
+          # Opaque dark canvas keeps text readable on both GitHub themes.
+          extras_css: |
+            svg { color: #e6edf3; font-family: monospace; }
+            svg:root { background: #0d1117; border-radius: 12px; }
+            h1, h2, h3 { color: #e6edf3; }
+            path[fill="#ebedf0"] { fill: #161b22; }
+            path[fill="#9be9a8"] { fill: #32134f; }
+            path[fill="#40c463"] { fill: #501781; }
+            path[fill="#30a14e"] { fill: #6d20b3; }
+            path[fill="#216e39"] { fill: #8A2BE2; }
+            .field.language.details small, .achievement .text,
+            .achievement .unlock, footer { color: #8b949e; }
+      - name: Most-used languages
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: rachts
+          template: classic
+          base: ''
+          filename: assets/metrics.languages.svg
+          output_action: none
+          plugin_languages: 'yes'
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
+          plugins_errors_fatal: 'yes'
+          config_timezone: Asia/Kolkata
+          extras_css: |
+            svg { color: #e6edf3; font-family: monospace; }
+            svg:root { background: #0d1117; border-radius: 12px; }
+            h1, h2, h3 { color: #e6edf3; }
+            .field.language.details small, footer { color: #8b949e; }
+      - name: Achievements
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: rachts
+          template: classic
+          base: ''
+          filename: assets/metrics.achievements.svg
+          output_action: none
+          plugin_achievements: 'yes'
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
+          plugin_achievements_limit: 8
+          plugins_errors_fatal: 'yes'
+          config_timezone: Asia/Kolkata
+          extras_css: |
+            svg { color: #e6edf3; font-family: monospace; }
+            svg:root { background: #0d1117; border-radius: 12px; }
+            h1, h2, h3 { color: #e6edf3; }
+            .achievement .text, .achievement .unlock, footer { color: #8b949e; }
+      - name: Publish only the three rendered metrics
+        shell: bash
+        run: |
+          set -euo pipefail
+          files=(assets/metrics.isocalendar.svg assets/metrics.languages.svg assets/metrics.achievements.svg)
+          for file in "${files[@]}"; do test -s "/metrics_renders/$file"; done
+          git fetch origin "refs/heads/$DEFAULT_BRANCH"
+          publish="$RUNNER_TEMP/metrics-publish"
+          git worktree add --detach "$publish" FETCH_HEAD
+          for file in "${files[@]}"; do install -D -m 644 "/metrics_renders/$file" "$publish/$file"; done
+          git -C "$publish" config user.name 'github-actions[bot]'
+          git -C "$publish" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C "$publish" add -- "${files[@]}"
+          if git -C "$publish" diff --cached --quiet; then exit 0; fi
+          git -C "$publish" commit -m 'chore: refresh profile metrics'
+          # Rebase only these generated files if a human advanced the branch.
+          for attempt in 1 2 3; do
+            if git -C "$publish" push origin "HEAD:refs/heads/$DEFAULT_BRANCH"; then exit 0; fi
+            git -C "$publish" fetch origin "refs/heads/$DEFAULT_BRANCH"
+            git -C "$publish" rebase FETCH_HEAD
+          done
+          exit 1

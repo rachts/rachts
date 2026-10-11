@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180" role="img" aria-labelledby="title desc">
+<title id="title">~/ contribution snake</title><desc id="desc">Awaiting first refresh — run snake.yml in Actions. No activity data has been fetched.</desc>
+<rect width="900" height="180" rx="12" fill="#f6f8fa"/>
+<path d="M24 40h24" stroke="#8A2BE2" stroke-width="4"/>
+<g fill="#1f2328" font-family="ui-monospace,monospace"><text x="24" y="80" font-size="20">~/ contribution snake</text>
+<text x="24" y="120" font-size="15">Awaiting first refresh — run snake.yml in Actions.</text></g></svg>

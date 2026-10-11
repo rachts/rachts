@@ -1,0 +1,2 @@
+# Optional portrait generator only; radar and stats use Python's standard library.
+Pillow>=12.0.0,<13.0.0

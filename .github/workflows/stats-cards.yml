@@ -1,0 +1,57 @@
+name: Update stats card
+
+on:
+  schedule:
+    - cron: '23 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# All four asset writers share this lock, including manual runs.
+concurrency:
+  group: profile-assets-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  stats:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+    steps:
+      # Resolve the branch at job start, not the potentially stale event SHA.
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate stats card
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/stats_cards.py --username rachts
+      - name: Publish only the stats SVG
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s assets/stats.svg
+          # A fresh worktree excludes incidental changes made by generators.
+          git fetch origin "refs/heads/$DEFAULT_BRANCH"
+          publish="$RUNNER_TEMP/stats-publish"
+          git worktree add --detach "$publish" FETCH_HEAD
+          install -D -m 644 assets/stats.svg "$publish/assets/stats.svg"
+          git -C "$publish" config user.name 'github-actions[bot]'
+          git -C "$publish" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C "$publish" add -- assets/stats.svg
+          if git -C "$publish" diff --cached --quiet; then exit 0; fi
+          git -C "$publish" commit -m 'chore: refresh stats card'
+          # Normal pushes preserve human commits; conflicting edits fail safely.
+          for attempt in 1 2 3; do
+            if git -C "$publish" push origin "HEAD:refs/heads/$DEFAULT_BRANCH"; then exit 0; fi
+            git -C "$publish" fetch origin "refs/heads/$DEFAULT_BRANCH"
+            git -C "$publish" rebase FETCH_HEAD
+          done
+          exit 1
