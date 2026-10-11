@@ -48,9 +48,9 @@ I'm **Rachit**, a B.Tech CSE student at MCKV Institute of Engineering (2024–20
 
 <img src="assets/stats.svg" width="100%" alt="Public GitHub account statistics — awaiting first refresh">
 
-<img src="assets/metrics.languages.svg" width="49%" alt="Most-used repository languages"> <img src="assets/metrics.achievements.svg" width="49%" alt="Metrics-derived achievements, not official GitHub badges">
+<img src="assets/metrics.languages.svg" width="70%" alt="Most-used repository languages">
 
-<sub>Repository languages measure code, not proficiency. Achievements are calculated by Metrics.</sub>
+<sub>Repository languages measure code, not proficiency. The Metrics achievements plugin is disabled because it still depends on deprecated GitHub Projects (classic).</sub>
 
 ## `~/` selected work
 

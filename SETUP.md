@@ -16,7 +16,7 @@ This folder is the repository root: upload its **contents**, not a nested `racht
    | --- | --- |
    | Update radar charts (`radar.yml`) | `assets/radar-skills.svg`, `assets/radar-languages.svg` |
    | Update stats card (`stats-cards.yml`) | `assets/stats.svg` |
-   | Update profile metrics (`metrics.yml`) | `assets/metrics.isocalendar.svg`, `assets/metrics.languages.svg`, `assets/metrics.achievements.svg` |
+   | Update profile metrics (`metrics.yml`) | `assets/metrics.isocalendar.svg`, `assets/metrics.languages.svg` |
    | Update contribution snakes (`snake.yml`) | `assets/snake.svg`, `assets/snake-dark.svg`; also `snake.svg` and `snake-dark.svg` on `output` |
 
    Verify successful runs, generated-asset commits, and the README on your profile. Starter SVGs deliberately say “awaiting first refresh”, not zero contributions. GitHub caches image renders, so a successful commit may take time to appear. Metrics achievements are inferred by that plugin, **not official GitHub achievement badges**.
@@ -61,7 +61,7 @@ GitHub workflow cron uses **UTC**, not your computer's time zone. Schedules only
 - All publishers share a concurrency group and do not cancel an active run. GitHub can replace an older *pending* run when several queue, so dispatch initial runs sequentially; re-dispatch any pending run that was cancelled.
 - Metrics writes into `/metrics_renders` with `output_action: none`; the final step copies only the three intended SVGs into a fresh checkout and commits with the repository token. It does not use your PAT for pushing. Explicit target lists prevent accidental commits of private files or logs.
 - Fresh worktrees keep generated files isolated and use the newest default branch. Bounded rebase/retry handles a concurrent human push; no force pushes are used. The snake's first `output` publication creates an orphan branch inside an isolated worktree, removing tracked source files **only in that temporary worktree**. Existing output history is preserved.
-- Metrics plugin errors fail the job before publishing all three files. API/stat errors preserve the previous card instead of replacing it with fabricated values. Inspect the Actions logs and token expiry/permissions if images remain stale. Some third-party plugins can break as GitHub APIs change.
+- Metrics plugin errors fail the job before publishing either supported file. The achievements plugin is intentionally disabled because its current implementation queries deprecated GitHub Projects (classic). API/stat errors preserve the previous cards instead of replacing them with fabricated values. Inspect the Actions logs and token expiry/permissions if images remain stale. Some third-party plugins can break as GitHub APIs change.
 
 ## Visual and data notes
 

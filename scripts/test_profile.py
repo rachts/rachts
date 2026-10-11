@@ -38,7 +38,7 @@ class ProfileTests(unittest.TestCase):
     def test_all_local_images_exist_and_parse(self):
         parser = Images()
         parser.feed(self.readme)
-        self.assertEqual(len(set(parser.paths)), 8)
+        self.assertEqual(len(set(parser.paths)), 7)
         for path in set(parser.paths):
             with self.subTest(path=path):
                 svg = ET.parse(ROOT / path).getroot()
