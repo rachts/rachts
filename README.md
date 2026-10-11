@@ -1,112 +1,68 @@
-# Rachit Kumar Tiwari
+<div align="center">
 
-**Computer Science Undergraduate · MAKAUT · Kolkata, India**
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=18&amp;duration=3400&amp;pause=1100&amp;color=8A2BE2&amp;center=true&amp;vCenter=true&amp;width=2000&amp;height=90&amp;lines=Rachit%20Kumar%20Tiwari;SDE%20%2F%20full-stack%20%2F%20AI-ML%20intern%20aspirant;01010010%2001100001%2001100011%2001101000%2001101001%2001110100%2000100000%2001001011%2001110101%2001101101%2001100001%2001110010%2000100000%2001010100%2001101001%2001110111%2001100001%2001110010%2001101001" width="100%" alt="Rachit Kumar Tiwari · seeking SDE, full-stack and AI-ML internships · name in binary">
 
-Building AI-powered, full-stack products — from pharmacology safety engines to client-side PDF processing at scale.
+**`Rachit Kumar Tiwari`** · `rachts` · `Kolkata, India`
 
-<p>
-  <a href="https://portfolio-rachts.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-111111?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://drive.google.com/file/d/1OpZUdvMgNVKpOlmhFF6YQxRhqobWhIm7/view?usp=sharing"><img src="https://img.shields.io/badge/Resume-111111?style=flat-square&logo=googledrive&logoColor=white" alt="Resume" /></a>
-  <a href="https://www.linkedin.com/in/rachitkrtiwari/"><img src="https://img.shields.io/badge/LinkedIn-111111?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:tiwari.rachit@gmail.com"><img src="https://img.shields.io/badge/Email-111111?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/rachts"><img src="https://img.shields.io/badge/Open_to_SWE_%2F_AI_Internships_2026-111111?style=flat-square" alt="Open to SWE / AI internships in 2026" /></a>
-</p>
+<a href="https://www.linkedin.com/in/rachitkrtiwari"><img src="https://img.shields.io/badge/LinkedIn-8A2BE2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a> <a href="mailto:tiwari.rachit@gmail.com"><img src="https://img.shields.io/badge/Email-8A2BE2?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"></a> <a href="https://portfolio-rachts.vercel.app"><img src="https://img.shields.io/badge/Portfolio-8A2BE2?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Portfolio"></a> <a href="https://leetcode.com/u/rachts/"><img src="https://img.shields.io/badge/LeetCode-8A2BE2?style=for-the-badge&amp;logo=leetcode&amp;logoColor=white" alt="LeetCode"></a> <a href="https://www.hackerrank.com/profile/rachts"><img src="https://img.shields.io/badge/HackerRank-8A2BE2?style=for-the-badge&amp;logo=hackerrank&amp;logoColor=white" alt="HackerRank"></a> <a href="https://drive.google.com/file/d/1VZ8CnQdSzF9B3DEpfSfJLlMGEvfP-CiC/view?usp=sharing"><img src="https://img.shields.io/badge/Resume-8A2BE2?style=for-the-badge&amp;logo=googledrive&amp;logoColor=white" alt="Resume"></a>
 
-## About
+</div>
 
-I design and ship end-to-end products: FastAPI services with LLM fallbacks, Next.js frontends with Row-Level Security, and computer-vision pipelines that run in production — not just notebooks.
+## `~/` whoami
 
-What I optimize for: explicit over clever, measurable impact over buzzwords, and edge cases caught before they ship.
+```console
+$ cat about.txt
+```
 
-**Currently:** scaling **VITALS.IO** · designing **Vitamend v2** · open to SWE/AI internships for 2026.
+I'm **Rachit**, a B.Tech CSE student at MCKV Institute of Engineering (2024–2028), based in Kolkata. I build web apps and explore how voice agents, retrieval and computer vision can make them more useful. I'm looking for SDE, full-stack or AI-ML internships.
 
-## Tech Stack
+- Currently building: **Vocalis OS**, **Vitamend** and **Kred.ai**.
+- Portfolio: [portfolio-rachts.vercel.app](https://portfolio-rachts.vercel.app)
+- Learning: **TODO — add what you're studying right now.**
 
-**Languages**
+`Fun fact: TODO — add one detail that sounds like you.`
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,java,c,html,css&theme=dark&perline=7" alt="Python, TypeScript, JavaScript, Java, C, HTML, CSS" />
-</p>
+## `~/` toolbox
 
-**Frameworks & AI**
+<img src="https://skillicons.dev/icons?i=js,ts,py,java,c,react,nextjs,tailwind,nodejs,express,fastapi,mongodb,firebase,supabase,opencv,vercel,git,linux&amp;perline=11&amp;theme=dark" alt="JavaScript, TypeScript, Python, Java, C, React, Next.js, Tailwind, Node, Express, FastAPI, MongoDB, Firebase, Supabase, OpenCV, Vercel, Git, Linux">
 
-<p>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,nodejs,express,fastapi,tensorflow,opencv&theme=dark&perline=8" alt="Next.js, React, Tailwind, Node.js, Express, FastAPI, TensorFlow, OpenCV" />
-</p>
+`Also: Gemini / OpenAI APIs`
 
-**Data & Tooling**
+## `~/` skill radar
 
-<p>
-  <img src="https://skillicons.dev/icons?i=mongodb,firebase,supabase,git,github,vercel,linux,vscode&theme=dark&perline=8" alt="MongoDB, Firebase, Supabase, Git, GitHub, Vercel, Linux, VS Code" />
-</p>
+<img src="assets/radar-skills.svg" width="49%" alt="Skills radar — self-ratings not yet configured"> <img src="assets/radar-languages.svg" width="49%" alt="Languages radar — self-ratings not yet configured">
 
-Also working with: Mistral AI, Gemini API, OpenAI API, retrieval-augmented generation, Docker, Pytesseract, WebSockets, and prompt engineering.
+<sub>Self-assessment, not a benchmark. TODO: set your ratings in <code>scripts/skills.json</code>.</sub>
 
-## Featured Projects
+## `~/` contribution calendar
 
-### MedCheck — AI-Powered Clinical Drug Interaction & Safety Platform
+<img src="assets/metrics.isocalendar.svg" width="100%" alt="3D isometric contribution calendar — generated daily">
 
-*Aug 2026*
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/snake.svg">
+  <img src="assets/snake.svg" width="100%" alt="Contribution snake — generated daily and also published to the output branch">
+</picture>
 
-`React` `FastAPI` `Python` `Mistral AI` `Docker` `JWT`
+## `~/` the numbers
 
-- Architected a FastAPI backend powering a **17-rule pharmacology engine** with Mistral AI fallback, delivering multi-tier severity classification and GI risk scoring across **100+ drug interactions**
-- Secured APIs with JWT/bcrypt and containerized the entire stack via **multi-stage Docker Compose**, cutting environment setup time to under 2 minutes
+<img src="assets/stats.svg" width="100%" alt="Public GitHub account statistics — awaiting first refresh">
 
-[Repository](https://github.com/rachts/MEDCHECK) · [Live Demo](https://medcheck-official.vercel.app)
+<img src="assets/metrics.languages.svg" width="49%" alt="Most-used repository languages"> <img src="assets/metrics.achievements.svg" width="49%" alt="Metrics-derived achievements, not official GitHub badges">
 
-### DocEasy — Document Management & PDF Processing Platform
+<sub>Repository languages measure code, not proficiency. Achievements are calculated by Metrics.</sub>
 
-*Jan 2026*
+## `~/` selected work
 
-`Next.js 16` `TypeScript` `Supabase` `WebAssembly` `PostgreSQL`
+| project | live | stack | one-line description |
+| :--- | :--- | :--- | :--- |
+| **Vocalis OS** · TODO: repo | TODO | `Next.js` `TypeScript` `Express` `Gemini` `WebSockets` | An agentic voice assistant. |
+| **Vitamend** · TODO: repo | [visit](https://vitamend.vercel.app) | `Next.js` `FastAPI` `OpenCV` `Pytesseract` `MongoDB` | An AI medicine donation platform. |
+| **Kred.ai** · TODO: repo | TODO | `Next.js` `Gemini` `Serper API` | Evidence-backed news verification. |
+| **PrivSight** · TODO: repo | TODO | `Electron` `React` `Python` `OpenCV` | Computer-vision-based screen privacy. |
 
-- Engineered a hybrid Next.js architecture using **WebAssembly and the Web Streams API**, achieving **O(1) memory complexity** for client-side processing of 250MB PDF payloads
-- Implemented Supabase OAuth and PostgreSQL **Row-Level Security** with end-to-end TypeScript, reducing reported development errors by 30%
+---
 
-[Repository](https://github.com/rachts/DocEasy) · [Live Demo](https://doceasy-official.vercel.app)
-
-### VITALS.IO — SaaS Unit Economics & Financial Health Analyzer
-
-*Aug 2026 – Present*
-
-`Python` `FastAPI` `Jinja2` `Tailwind CSS` `Chart.js`
-
-- Built a FastAPI-based analytics platform that ingests raw CSV data and computes **LTV, CAC, ARPA, churn, gross margin, payback period**, and a 0–10 unit-economics health score
-- Engineered **fuzzy CSV header matching** and interactive what-if scenario simulation, with REST APIs for programmatic financial analysis and startup runway forecasting
-
-[Repository](https://github.com/rachts/VITALS.IO) · [Live Demo](https://vitals-io.onrender.com)
-
-### Vitamend — AI-Driven Medicine Donation & Redistribution Platform
-
-*Aug 2024 – Present*
-
-`Next.js 14` `TypeScript` `MongoDB` `Gemini Vision` `FastAPI` `OpenCV`
-
-- Built a **Gemini Vision OCR pipeline** to extract medicine details from label images and automatically flag potentially expired products before approval
-- **1st Place — MCKVIE Innovation Symposium** · **National Finalist — Cosmohack (Top 10)** · **HACKVSIT (Top 20)**
-
-[Repository](https://github.com/rachts/vitamend-org) · [Live Demo](https://vitamend-ngo.vercel.app)
-
-## Achievements
-
-- **1st Place** — MCKVIE Innovation Symposium (Vitamend)
-- **National Finalist** — Cosmohack (Top 10) · HACKVSIT (Top 20)
-
-## Education
-
-**B.Tech, Computer Science & Engineering** — MAKAUT, West Bengal
-Expected graduation 2028 · CGPA 8.80/10
-
-## GitHub Activity
-
-<p>
-  <a href="https://github-stats-extended.vercel.app/api?username=rachts&rank_icon=percentile&custom_title=Github%20Stats&show_icons=true&include_all_commits=true&theme=swift">
-    <img src="https://github-stats-extended.vercel.app/api?username=rachts&rank_icon=percentile&custom_title=Github%20Stats&show_icons=true&include_all_commits=true&theme=swift" alt="GitHub Stats" height="165" />
-  </a>
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=rachts&layout=compact&theme=swift" alt="Top languages" height="165" />
-</p>
-
-## Contact
-
-Best reached at [tiwari.rachit@gmail.com](mailto:tiwari.rachit@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/rachitkrtiwari/). Work samples live on the [portfolio](https://portfolio-rachts.vercel.app/).
+<div align="center">
+<sub><code>01110100 01101000 01100001 01101110 01101011 01110011 00100000 01100110 01101111 01110010 00100000 01110011 01100011 01110010 01101111 01101100 01101100 01101001 01101110 01100111</code></sub>
+</div>
