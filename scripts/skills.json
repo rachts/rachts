@@ -3,21 +3,21 @@
   "skills": {
     "title": "Skills",
     "categories": [
-      {"name": "Generative AI", "rating": null},
-      {"name": "Agentic systems", "rating": null},
-      {"name": "RAG", "rating": null},
-      {"name": "Vision / OCR", "rating": null},
-      {"name": "Full-stack web", "rating": null}
+      {"name": "Generative AI", "rating": 3},
+      {"name": "Agentic systems", "rating": 3},
+      {"name": "RAG", "rating": 3},
+      {"name": "Vision / OCR", "rating": 3},
+      {"name": "Full-stack web", "rating": 3}
     ]
   },
   "languages": {
     "title": "Languages",
     "categories": [
-      {"name": "JavaScript", "rating": null},
-      {"name": "TypeScript", "rating": null},
-      {"name": "Python", "rating": null},
-      {"name": "Java", "rating": null},
-      {"name": "C", "rating": null}
+      {"name": "JavaScript", "rating": 3},
+      {"name": "TypeScript", "rating": 3},
+      {"name": "Python", "rating": 3},
+      {"name": "Java", "rating": 3},
+      {"name": "C", "rating": 3}
     ]
   }
 }

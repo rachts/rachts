@@ -65,7 +65,7 @@ if __name__ == "__main__":
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>rachts · profile preview</title>
 <style>
-:root{color-scheme:dark light;--bg:#0d1117;--panel:#161b22;--text:#e6edf3;--muted:#aab1bd;--line:#30363d;--accent:#8A2BE2}
+:root{color-scheme:dark light;--bg:#0d1117;--panel:#161b22;--text:#e6edf3;--muted:#aab1bd;--line:#30363d;--accent:#A89B8C}
 @media(prefers-color-scheme:light){:root{--bg:#fff;--panel:#f6f8fa;--text:#1f2328;--muted:#59636e;--line:#d0d7de}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:14px/1.75 "JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace}
 main{max-width:980px;margin:40px auto;padding:28px;border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:10px}

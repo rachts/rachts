@@ -55,7 +55,7 @@ jobs:
             path[fill="#9be9a8"] { fill: #32134f; }
             path[fill="#40c463"] { fill: #501781; }
             path[fill="#30a14e"] { fill: #6d20b3; }
-            path[fill="#216e39"] { fill: #8A2BE2; }
+            path[fill="#216e39"] { fill: #A89B8C; }
             .field.language.details small, .achievement .text,
             .achievement .unlock, footer { color: #8b949e; }
       - name: Most-used languages
@@ -78,40 +78,12 @@ jobs:
             svg:root { background: #0d1117; border-radius: 12px; }
             h1, h2, h3 { color: #e6edf3; }
             .field.language.details small, footer { color: #8b949e; }
-      - name: Achievements
-        continue-on-error: true
-        uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: rachts
-          template: classic
-          base: ''
-          filename: assets/metrics.achievements.svg
-          output_action: none
-          debug: 'yes'
-          debug_flags: ''
-          plugin_achievements: 'yes'
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
-          plugin_achievements_secrets: 'no'
-          plugin_achievements_limit: 8
-          plugins_errors_fatal: 'yes'
-          config_timezone: Asia/Kolkata
-          extras_css: |
-            svg { color: #e6edf3; font-family: monospace; }
-            svg:root { background: #0d1117; border-radius: 12px; }
-            h1, h2, h3 { color: #e6edf3; }
-            .achievement .text, .achievement .unlock, footer { color: #8b949e; }
       - name: Publish rendered metrics
         shell: bash
         run: |
           set -euo pipefail
-          candidates=(assets/metrics.isocalendar.svg assets/metrics.languages.svg assets/metrics.achievements.svg)
-          files=()
-          for file in "${candidates[@]}"; do
-            if [ -s "/metrics_renders/$file" ]; then files+=("$file"); else echo "Skipping missing $file"; fi
-          done
-          [ ${#files[@]} -gt 0 ] || exit 0
+           files=(assets/metrics.isocalendar.svg assets/metrics.languages.svg)
+           for file in "${files[@]}"; do test -s "/metrics_renders/$file"; done
           git fetch origin "refs/heads/$DEFAULT_BRANCH"
           publish="$RUNNER_TEMP/metrics-publish"
           git worktree add --detach "$publish" FETCH_HEAD

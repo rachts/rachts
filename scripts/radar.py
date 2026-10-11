@@ -58,11 +58,11 @@ def render_chart(chart, maximum):
         label = item["name"] if len(item["name"]) <= 22 else item["name"][:19] + "…"
         elements.append(f'<text x="{lx:.2f}" y="{ly:.2f}" text-anchor="middle" dominant-baseline="middle" font-size="12"><title>{escape(item["name"])}</title>{escape(label)}</text>')
     if complete:
-        elements.append(f'<polygon points="{polygon([120 * item["rating"] / maximum for item in categories])}" fill="#8A2BE2" fill-opacity="0.3" stroke="#8A2BE2" stroke-width="3"/>')
+        elements.append(f'<polygon points="{polygon([120 * item["rating"] / maximum for item in categories])}" fill="#A89B8C" fill-opacity="0.3" stroke="#A89B8C" stroke-width="3"/>')
         caption = f"Self-assessed · scale 0–{maximum}"
     else:
-        elements.append('<rect x="180" y="196" width="280" height="60" rx="8" fill="#0d1117" stroke="#8A2BE2"/><text x="320" y="232" text-anchor="middle" font-size="17">TODO · Not configured</text>')
-        caption = "Set every rating in scripts/skills.json · no levels assumed"
+        elements.append('<rect x="180" y="196" width="280" height="60" rx="8" fill="#0d1117" stroke="#A89B8C"/><text x="320" y="232" text-anchor="middle" font-size="17">Ratings unavailable</text>')
+        caption = "Set every rating in scripts/skills.json"
     elements.append(f'<text x="320" y="419" text-anchor="middle" font-size="12">{escape(caption)}</text></g></svg>\n')
     return "".join(elements)
 

@@ -27,7 +27,7 @@ def main(argv=None):
             rgba = ImageOps.fit(ImageOps.exif_transpose(image).convert("RGBA"), (args.grid, args.grid), method=Image.Resampling.LANCZOS)
         luminance = rgba.convert("L")
         step = args.size / args.grid
-        parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{args.size}" height="{args.size}" viewBox="0 0 {args.size} {args.size}" role="img" aria-labelledby="title desc"><title id="title">Purple circle-grid portrait</title><desc id="desc">Local photograph rendered as purple halftone circles on a transparent canvas.</desc><g fill="#8A2BE2">']
+        parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{args.size}" height="{args.size}" viewBox="0 0 {args.size} {args.size}" role="img" aria-labelledby="title desc"><title id="title">Warm taupe circle-grid portrait</title><desc id="desc">Local photograph rendered as warm taupe halftone circles on a transparent canvas.</desc><g fill="#A89B8C">']
         for y in range(args.grid):
             for x in range(args.grid):
                 alpha = rgba.getpixel((x, y))[3] / 255

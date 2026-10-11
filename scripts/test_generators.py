@@ -19,13 +19,13 @@ class GeneratorTests(unittest.TestCase):
     def setUp(self):
         self.config = json.loads(Path(__file__).with_name("skills.json").read_text())
 
-    def test_starter_has_no_fabricated_levels(self):
+    def test_configured_ratings_render_shapes(self):
         radar.validate_config(self.config)
         svg = radar.render_chart(self.config["skills"], 5)
         ET.fromstring(svg)
-        self.assertIn("TODO · Not configured", svg)
-        self.assertNotIn('fill-opacity="0.3"', svg)
-        self.assertTrue(all(c["rating"] is None for key in ("skills", "languages") for c in self.config[key]["categories"]))
+        self.assertNotIn("TODO", svg)
+        self.assertIn('fill-opacity="0.3"', svg)
+        self.assertTrue(all(c["rating"] == 3 for key in ("skills", "languages") for c in self.config[key]["categories"]))
 
     def test_validation(self):
         for invalid in (True, -1, 6, float("nan"), float("inf"), "4"):

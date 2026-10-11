@@ -30,8 +30,8 @@ jobs:
           github_user_name: rachts
           github_token: ${{ github.token }}
           outputs: |
-             assets/snake.svg?color_snake=%238A2BE2&color_dots=%23ebedf0,%23e6d5f7,%23c39ce9,%23a261de,%238A2BE2
-             assets/snake-dark.svg?color_snake=%238A2BE2&color_dots=%23161b22,%2332134f,%23501781,%236d20b3,%238A2BE2
+             assets/snake.svg?color_snake=%23A89B8C&color_dots=%23ebedf0,%23e6e1d8,%23d5cfc3,%23c9bfae,%23A89B8C
+             assets/snake-dark.svg?color_snake=%23A89B8C&color_dots=%23161b22,%23302d28,%2348443e,%23645e55,%23A89B8C
       - name: Publish local README assets
         shell: bash
         run: |

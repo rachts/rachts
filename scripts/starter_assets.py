@@ -7,7 +7,7 @@ def placeholder(title, note, background="#0d1117", foreground="#e6edf3"):
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180" role="img" aria-labelledby="title desc">
 <title id="title">{escape(title)}</title><desc id="desc">{escape(note)} No activity data has been fetched.</desc>
 <rect width="900" height="180" rx="12" fill="{background}"/>
-<path d="M24 40h24" stroke="#8A2BE2" stroke-width="4"/>
+<path d="M24 40h24" stroke="#A89B8C" stroke-width="4"/>
 <g fill="{foreground}" font-family="ui-monospace,monospace"><text x="24" y="80" font-size="20">{escape(title)}</text>
 <text x="24" y="120" font-size="15">{escape(note)}</text></g></svg>'''
 

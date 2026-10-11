@@ -66,11 +66,11 @@ def render_stats(username, stats=None, updated=None):
     description = ("Offline starter placeholder. GitHub has not been queried; dashes are unknown, not zero." if placeholder else "Public GitHub REST snapshot. Profile repository count includes forks. Stars exclude forks, private repositories, and repositories owned by others.")
     title = f"{username} · GitHub statistics"
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="640" height="330" viewBox="0 0 640 330" role="img" aria-labelledby="title desc"><title id="title">{escape(title)}</title><desc id="desc">{escape(description)}</desc><rect width="640" height="330" rx="16" fill="#0d1117"/><g font-family="ui-monospace,monospace" fill="#e6edf3">',
-             f'<text x="24" y="38" font-size="22">{escape(title)}</text><path d="M24 55H616" stroke="#8A2BE2" stroke-width="2"/>']
+             f'<text x="24" y="38" font-size="22">{escape(title)}</text><path d="M24 55H616" stroke="#A89B8C" stroke-width="2"/>']
     for i, (label, value) in enumerate(rows.items()):
         y = 91 + i * 36
         parts.append(f'<text x="24" y="{y}" font-size="15">{escape(str(label))}</text><text x="608" y="{y}" text-anchor="end" font-size="18">{escape(str(value))}</text>')
-    caption = "TODO · Offline placeholder · statistics not fetched" if placeholder else f"Updated {updated} · GitHub REST public data"
+    caption = "Offline placeholder · statistics not fetched" if placeholder else f"Updated {updated} · GitHub REST public data"
     parts.append(f'<text x="24" y="278" font-size="12">{escape(caption)}</text><text x="24" y="303" font-size="11">Profile repo count includes forks; star total uses owned public non-forks only.</text></g></svg>\n')
     return "".join(parts)
 

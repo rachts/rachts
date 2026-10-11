@@ -29,9 +29,9 @@ class ProfileTests(unittest.TestCase):
 
     def test_readme_budget_and_structure(self):
         self.assertLess(len(self.readme.splitlines()), 120)
-        self.assertEqual(re.findall(r"^## `~/` (.+)$", self.readme, re.M),
-                         ["whoami", "toolbox", "skill radar", "contribution calendar", "the numbers", "selected work"])
-        self.assertEqual(len(re.findall(r"^\| \*\*", self.readme, re.M)), 4)
+        self.assertEqual(re.findall(r"^## (.+)$", self.readme, re.M),
+                         ["About", "Toolbox", "Skill radar", "Contribution calendar", "Stats", "Selected work"])
+        self.assertEqual(len(re.findall(r"^\| (?:Vocalis OS|Vitamend|Kred\.ai|PrivSight) \|", self.readme, re.M)), 4)
         self.assertEqual(self.readme.count("skillicons.dev/icons"), 1)
         self.assertNotIn("github-readme-stats", self.readme)
 
@@ -48,14 +48,11 @@ class ProfileTests(unittest.TestCase):
                     or svg.find("{http://www.w3.org/2000/svg}desc") is not None
                 )
 
-    def test_banner_and_footer_binary(self):
+    def test_banner_and_footer_are_plain(self):
         url = re.search(r'src="(https://readme-typing-svg[^\"]+)"', self.readme).group(1)
         lines = parse_qs(urlsplit(unescape(url)).query)["lines"][0].split(";")
-        self.assertEqual(len(lines), 3)
-        decode = lambda s: "".join(chr(int(byte, 2)) for byte in s.split())
-        self.assertEqual(decode(lines[2]), "Rachit Kumar Tiwari")
-        footer = re.search(r"<sub><code>([01 ]+)</code></sub>", self.readme).group(1)
-        self.assertEqual(decode(footer), "thanks for scrolling")
+        self.assertEqual(lines, ["Rachit Kumar Tiwari", "SDE / full-stack / AI-ML intern aspirant"])
+        self.assertIn("Thanks for stopping by.", self.readme)
 
     def test_preview_matches_readme(self):
         preview = (ROOT / "preview.html").read_text()
