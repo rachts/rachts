@@ -1,4 +1,4 @@
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=18&amp;duration=3400&amp;pause=1100&amp;color=A89B8C&amp;width=900&amp;height=60&amp;lines=Rachit%20Kumar%20Tiwari;SDE%20%2F%20full-stack%20%2F%20AI-ML%20intern%20aspirant" width="100%" alt="Rachit Kumar Tiwari · seeking SDE, full-stack and AI-ML internships">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=18&amp;duration=3400&amp;pause=1100&amp;color=A89B8C&amp;width=900&amp;height=60&amp;lines=Rachit%20Kumar%20Tiwari;SDE%20%2F%20full-stack%20%2F%20" width="100%" alt="Rachit Kumar Tiwari · seeking SDE, full-stack and AI-ML internships">
 
 `Rachit Kumar Tiwari` · `rachts` · `Kolkata, India`
 
